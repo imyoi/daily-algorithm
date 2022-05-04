@@ -31,7 +31,14 @@ public class Solution_MonthlyChallenge1 {
      * a와 b의 내적은 1*(-3) + 2*(-1) + 3*0 + 4*2 = 3 입니다.
      * */
     public int solution02(int[] a, int[] b) {
-        int answer = 1234567890;
+        int answer = 0;
+        int bIndex = 0;
+
+        for(int i : a){
+            answer += (i * b[bIndex]);
+            bIndex++;
+        }
+
         return answer;
     }
 }
