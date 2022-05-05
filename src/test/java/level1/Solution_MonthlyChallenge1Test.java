@@ -10,7 +10,7 @@ class Solution_MonthlyChallenge1Test {
     private final Solution_MonthlyChallenge1 smc1 = new Solution_MonthlyChallenge1();
 
     @Test
-    void solution01() {
+    void solution01_두개뽑아서더하기() {
         //given
         int[] numbers = {2,1,3,4,1};
 
@@ -23,7 +23,7 @@ class Solution_MonthlyChallenge1Test {
     }
 
     @Test
-    void solution02() {
+    void solution02_내적() {
         //given
         int[] a = {-1,0,1};
         int[] b = {1,0,-1};
@@ -33,5 +33,17 @@ class Solution_MonthlyChallenge1Test {
 
         //then
         assertEquals(result, -2);
+    }
+
+    @Test
+    void solution03_3진법더하기() {
+        //given
+        int n = 45;
+
+        //when
+        int result = smc1.solution03(n);
+
+        //then
+        assertEquals(result, 7);
     }
 }

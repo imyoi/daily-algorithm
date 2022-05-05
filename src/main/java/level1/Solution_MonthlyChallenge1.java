@@ -41,4 +41,20 @@ public class Solution_MonthlyChallenge1 {
 
         return answer;
     }
+
+    /**
+     * #68935
+     * 자연수 n을 3진법 상에서 앞뒤로 뒤집은 후, 이를 다시 10진법으로 표현한 수를 return 하도록 solution 함수를 완성해주세요.
+     * 3진수 -> 3으로 나눈 나머지들의 역순을 저장
+     * */
+    public int solution03(int n) {
+        String result = "";
+        while(n > 0) {
+            result += (n % 3);
+            n /= 3;
+        }
+
+        int answer = Integer.parseInt(result, 3);
+        return answer;
+    }
 }
