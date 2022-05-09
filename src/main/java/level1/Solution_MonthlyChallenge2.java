@@ -1,5 +1,7 @@
 package level1;
 
+import java.util.ArrayList;
+
 public class Solution_MonthlyChallenge2 {
 
     /**
@@ -16,4 +18,24 @@ public class Solution_MonthlyChallenge2 {
         return answer;
     }
 
+    /**
+     * #77884
+     * left부터 right까지의 모든 수들 중에서, 약수의 개수가 짝수인 수는 더하고,
+     * 약수의 개수가 홀수인 수는 뺀 수를 return 하도록 solution 함수를 완성해주세요.
+     * */
+    public int solution02(int left, int right) {
+        int answer = 0;
+        while(left <= right) {
+            ArrayList<Integer> arr = new ArrayList<>();
+            for(int i = 1; i<=left; i++) {
+                if(left % i == 0) {
+                    arr.add(i);
+                }
+            }
+
+            answer += (arr.size() % 2 == 0) ? left : -left;
+            left++;
+        }
+        return answer;
+    }
 }

@@ -20,4 +20,17 @@ class Solution_MonthlyChallenge2Test {
         //then
         assertEquals(result, 0);
     }
+
+    @Test
+    void solution02_약수의개수와덧셈() {
+        //given
+        int left = 24;
+        int right = 27;
+
+        //when
+        int result = smc2.solution02(left, right);
+
+        //then
+        assertEquals(result, 52);
+    }
 }

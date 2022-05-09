@@ -15,3 +15,4 @@
 | # | 문제 | 풀이 |
 | --- | --- | --- |
 | 76501 | [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501) | `SUCCESS` |
+| 77884 | [약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884) | `SUCCESS` |
