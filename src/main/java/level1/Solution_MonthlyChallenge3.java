@@ -40,4 +40,19 @@ public class Solution_MonthlyChallenge3 {
         int answer = 45 - Arrays.stream(numbers).sum();
         return answer;
     }
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /**
+     * #87389
+     * 자연수 n을 x로 나눈 나머지가 1이 되도록 하는 가장 작은 자연수 x를 return 하도록 solution 함수를 완성해주세요.
+     * */
+    public int solution02(int n) {
+        int x = 1;
+        while(x <= n) {
+            if (n % x == 1) break;
+            x++;
+        }
+        return x;
+    }
 }

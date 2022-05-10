@@ -43,4 +43,17 @@ class Solution_MonthlyChallenge3Test {
         assertEquals(result, 6);
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    @Test
+    void solution02_나머지가1이되는수찾기() {
+        //given
+        int n = 12;
+
+        //when
+        int result = smc3.solution02(n);
+
+        //then
+        assertEquals(result, 11);
+    }
+
 }
