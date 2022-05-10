@@ -32,13 +32,20 @@
         <!--Solution_MonthlyChallenge2-->
         <tr>
             <td rowspan="2">월간 코드 챌린지 시즌 2</td>
-            <td>68644</td>
+            <td>76501</td>
             <td><a href="https://programmers.co.kr/learn/courses/30/lessons/76501">음양 더하기</a></td>
             <td>:white_check_mark:</td>
         </tr>
         <tr>
-            <td>70128</td>
+            <td>77884</td>
             <td><a href="https://programmers.co.kr/learn/courses/30/lessons/77884">약수의 개수와 덧셈</a></td>
             <td>:white_check_mark:</td>
+        </tr>
+        <!--Solution_MonthlyChallenge3-->
+        <tr>
+            <td rowspan="">월간 코드 챌린지 시즌 3</td>
+            <td>86051</td>
+            <td><a href="https://programmers.co.kr/learn/courses/30/lessons/86051">없는 숫자 더하기</a></td>
+            <td>:arrow_right:</td>
         </tr>
     </table>
