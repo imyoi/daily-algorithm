@@ -38,4 +38,24 @@ public class Solution_MonthlyChallenge2 {
         }
         return answer;
     }
+
+    /**
+     * #77884 studies
+     * left부터 right까지의 모든 수들 중에서, 약수의 개수가 짝수인 수는 더하고,
+     * 약수의 개수가 홀수인 수는 뺀 수를 return 하도록 solution 함수를 완성해주세요.
+     * ! 제곱수의 약수의 갯수는 항상 홀수이다.
+     * */
+    public int studies02(int left, int right) {
+        int answer = 0;
+        while(left <= right) {
+            if (left % Math.sqrt(left) == 0) {
+                answer -= left;
+            } else {
+                answer += left;
+            }
+            left++;
+        }
+
+        return answer;
+    }
 }

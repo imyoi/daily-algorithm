@@ -33,4 +33,17 @@ class Solution_MonthlyChallenge2Test {
         //then
         assertEquals(result, 52);
     }
+
+    @Test
+    void studies02_약수의개수와덧셈() {
+        //given
+        int left = 13;
+        int right = 17;
+
+        //when
+        int result = smc2.studies02(left, right);
+
+        //then
+        assertEquals(result, 43);
+    }
 }
