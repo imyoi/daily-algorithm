@@ -1,5 +1,5 @@
 
-## Code-Test
+## Coding-Test
 
 ### [프로그래머스](https://programmers.co.kr/)
 
@@ -54,6 +54,19 @@
       <tr>
           <td>87389</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/87389">나머지가 1이 되는 수 찾기</a></td>
+          <td>:white_check_mark:</td>
+      </tr>
+      <!--Solution_WeeklyChallenge-->
+      <tr>
+          <td rowspan="2">위클리 챌린지</td>
+          <td>82612</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/82612">부족한 금액 계산하기</a></td>
+          <td rowspan="2" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_WeeklyChallenge.java">코드</a></td>
+          <td>:white_check_mark:</td>
+      </tr>
+      <tr>
+          <td>86491</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/86491">최소직사각형</a></td>
           <td>:arrow_right:</td>
       </tr>
   </table>
