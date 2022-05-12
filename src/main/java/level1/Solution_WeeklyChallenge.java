@@ -1,5 +1,7 @@
 package level1;
 
+import java.util.Arrays;
+
 public class Solution_WeeklyChallenge {
 
     /**
@@ -48,8 +50,32 @@ public class Solution_WeeklyChallenge {
      * 모든 명함을 수납할 수 있는 가장 작은 지갑을 만들 때, 지갑의 크기를 return 하도록 solution 함수를 완성해주세요.
      * */
     public int solution02(int[][] sizes) {
-        int answer = 0;
-        return answer;
+        int w = 0;
+        int h = 0;
+
+        for(int[] s : sizes) {
+            w = Math.max(w, Math.max(s[0], s[1]));
+            h = Math.max(h, Math.min(s[0], s[1]));
+        }
+
+        return w * h;
+    }
+
+    /**
+     * #86491 studies
+     * 다른 풀이 (1)
+     *
+     * */
+    public int studies02(int[][] sizes) {
+        int w = 0;
+        int h = 0;
+
+        for(int[] s : sizes) {
+            w = Math.max(Arrays.stream(s).max().getAsInt(), w);
+            h = Math.max(Arrays.stream(s).min().getAsInt(), Math.max(Arrays.stream(s).min().getAsInt(), h));
+        }
+
+        return w * h;
     }
 
 
