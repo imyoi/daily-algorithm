@@ -5,8 +5,6 @@
 
   <table>
       <tr>
-          <th style="text-align: center">#</th>
-          <th style="text-align: center">ID</th>
           <th style="text-align: center">구분</th>
           <th style="text-align: center">문제번호</th>
           <th style="text-align: center">문제</th>
