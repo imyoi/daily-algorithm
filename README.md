@@ -1,4 +1,3 @@
-
 ## Coding-Test
 
 ### [프로그래머스](https://programmers.co.kr/)
@@ -8,9 +7,12 @@
       <tr>
           <th style="text-align: center">#</th>
           <th style="text-align: center">ID</th>
+          <th style="text-align: center">구분</th>
+          <th style="text-align: center">문제번호</th>
           <th style="text-align: center">문제</th>
           <th style="text-align: center">코드</th>
           <th style="text-align: center">풀이</th>
+          <th style="text-align: center">상태</th>
       </tr>
       <!--Solution_MonthlyChallenge1-->
       <tr>
@@ -67,6 +69,19 @@
       <tr>
           <td>86491</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/86491">최소직사각형</a></td>
+          <td>:white_check_mark:</td>
+      </tr>
+      <!--Solution_SummerWinter2018-->
+      <tr>
+          <td rowspan="2">Summer/Winter Coding(~2018)</td>
+          <td>12977</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12977">소수 구하기</a></td>
+          <td rowspan="2" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_SummerWinter2018.java">코드</a></td>
+          <td>:rocket:</td>
+      </tr>
+      <tr>
+          <td>12982</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12982">예산</a></td>
           <td>:arrow_right:</td>
       </tr>
   </table>
