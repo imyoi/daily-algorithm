@@ -11,14 +11,13 @@ class Solution_SummerWinter2018Test {
     @Test
     void solution01_소수구하기() {
         //given
-//        int[] nums = {1,2,3,4};
-        int[] nums = {1,3,5,7,9,10};
+        int[] nums = {1,2,7,6,4};
 
         //when
         int result = ss.solution01(nums);
 
         //then
-        assertEquals(result, 1);
+        assertEquals(result, 4);
     }
 
     @Test

@@ -2,7 +2,7 @@ package level1;
 
 public class Solution_SummerWinter2018 {
 
-    private int cnt; // 소수가 되는 경우의 수
+    static int cnt = 0; // 소수가 되는 경우의 수
 
     /**
      * #12977
@@ -10,8 +10,9 @@ public class Solution_SummerWinter2018 {
      * ! nCr : n개 중에서 r개를 선택하는 경우의 수 (합은 똑같으므로 중복 없이) = 조합
      * */
     public int solution01(int[] nums) {
-        int n = nums.length;
-        return combination(nums, new boolean[n], 0, n, 3);
+        boolean[] picked = new boolean[nums.length];
+        combination(nums, picked, 0, nums.length, 3);
+        return cnt;
     }
 
     /**
@@ -19,26 +20,26 @@ public class Solution_SummerWinter2018 {
      *@param idx →  시작 위치
      *@param r →  n개 중 선택하는 수
      * */
-    public int combination(int[] nums, boolean[] picked, int idx, int n, int r) {
-        int sum = 0;
+    public void combination(int[] nums, boolean[] picked, int idx, int n, int r) {
         if(r == 0) {
+            int sum = 0;
             for(int i = 0; i < n; i++) {
                 if(picked[i]) {
                     sum += nums[i];
                 }
             }
-            System.out.println("sum >>>>" + sum);
             if(isPrime(sum)) cnt++;
+        }else {
+            for(int i = idx; i < n; i++) {
+                picked[i] = true;
+                combination(nums, picked, i+1, n, r-1);
+                picked[i] = false;
+            }
         }
-        for(int i = idx; i < n; i++) {
-            picked[i] = true;
-            combination(nums, picked, i+1, n, r-1);
-            picked[i] = false;
-        }
-        return cnt;
     }
 
-    public static boolean isPrime(int sum) {
+    public boolean isPrime(int sum) {
+        if (sum <= 1) return false;
         for(int i = 2; i <= (int)Math.sqrt(sum); i++) {
             if(sum % i == 0) return false;
         }

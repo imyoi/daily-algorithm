@@ -10,6 +10,7 @@
           <th style="text-align: center">문제</th>
           <th style="text-align: center">풀이</th>
           <th style="text-align: center">상태</th>
+          <th style="text-align: center">비고</th>
       </tr>
       <!--Solution_MonthlyChallenge1-->
       <tr>
@@ -74,7 +75,8 @@
           <td>12977</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12977">소수 구하기</a></td>
           <td rowspan="2" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_SummerWinter2018.java">코드</a></td>
-          <td>:rocket:</td>
+          <td>:white_check_mark:</td>
+          <td>:seedling: 에라스토테네스의 체</td>
       </tr>
       <tr>
           <td>12982</td>
