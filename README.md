@@ -6,9 +6,8 @@
   <table>
       <tr>
           <th style="text-align: center">구분</th>
-          <th style="text-align: center">문제번호</th>
+          <th style="text-align: center">번호</th>
           <th style="text-align: center">문제</th>
-          <th style="text-align: center">코드</th>
           <th style="text-align: center">풀이</th>
           <th style="text-align: center">상태</th>
       </tr>
