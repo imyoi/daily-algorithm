@@ -27,7 +27,7 @@ class Solution_SummerWinter2018Test {
         int budget = 9;
 
         //when
-        int result = 3;
+        int result = ss.solution02(d, budget);
 
         //then
         assertEquals(result, 3);

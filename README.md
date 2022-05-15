@@ -19,16 +19,19 @@
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/68644">두 개 뽑아서 더하기</a></td>
           <td rowspan="3" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_MonthlyChallenge1.java">코드</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <tr>
           <td>70128</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/70128">내적</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <tr>
           <td>68935</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/68935">3진법 뒤집기</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <!--Solution_MonthlyChallenge2-->
       <tr>
@@ -37,11 +40,13 @@
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/76501">음양 더하기</a></td>
           <td rowspan="2" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_MonthlyChallenge2.java">코드</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <tr>
           <td>77884</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/77884">약수의 개수와 덧셈</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <!--Solution_MonthlyChallenge3-->
       <tr>
@@ -50,11 +55,13 @@
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/86051">없는 숫자 더하기</a></td>
           <td rowspan="2" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_MonthlyChallenge3.java">코드</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <tr>
           <td>87389</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/87389">나머지가 1이 되는 수 찾기</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <!--Solution_WeeklyChallenge-->
       <tr>
@@ -63,11 +70,13 @@
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/82612">부족한 금액 계산하기</a></td>
           <td rowspan="2" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_WeeklyChallenge.java">코드</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <tr>
           <td>86491</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/86491">최소직사각형</a></td>
           <td>:white_check_mark:</td>
+          <td></td>
       </tr>
       <!--Solution_SummerWinter2018-->
       <tr>
@@ -81,7 +90,17 @@
       <tr>
           <td>12982</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12982">예산</a></td>
+          <td>:white_check_mark:</td>
+          <td></td>
+      </tr>
+      <!--Solution_Maester-->
+      <tr>
+          <td>찾아라 프로그래밍 마에스터</td>
+          <td>1845</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/1845">폰켓몬</a></td>
+          <td style="text-align: center"><a href="#">코드</a></td>
           <td>:arrow_right:</td>
+          <td></td>
       </tr>
   </table>
 
