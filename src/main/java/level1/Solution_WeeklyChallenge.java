@@ -64,7 +64,6 @@ public class Solution_WeeklyChallenge {
     /**
      * #86491 studies
      * 다른 풀이 (1)
-     *
      * */
     public int studies02(int[][] sizes) {
         int w = 0;

@@ -85,7 +85,7 @@
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12977">소수 구하기</a></td>
           <td rowspan="2" style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_SummerWinter2018.java">코드</a></td>
           <td>:white_check_mark:</td>
-          <td>:seedling: 에라스토테네스의 체</td>
+          <td>:technologist: 에라스토테네스의 체</td>
       </tr>
       <tr>
           <td>12982</td>
@@ -98,6 +98,33 @@
           <td>찾아라 프로그래밍 마에스터</td>
           <td>1845</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/1845">폰켓몬</a></td>
+          <td style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_Maester.java">코드</a></td>
+          <td>:white_check_mark:</td>
+          <td></td>
+      </tr>
+      <!--Solution_KakaoInternship2019-->
+      <tr>
+          <td>2019 카카오 개발자 겨울 인턴십</td>
+          <td>64061</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/64061">크레인 인형뽑기 게임</a></td>
+          <td style="text-align: center"><a href="#">코드</a></td>
+          <td>:arrow_right:</td>
+          <td></td>
+      </tr>
+      <!--Solution_KakaoInternship2020-->
+      <tr>
+          <td>2020 카카오 인턴십</td>
+          <td>67256</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/67256">키패드 누르기</a></td>
+          <td style="text-align: center"><a href="#">코드</a></td>
+          <td>:arrow_right:</td>
+          <td></td>
+      </tr>
+      <!--Solution_KakaoInternship2021-->
+      <tr>
+          <td>2021 카카오 채용연계형 인턴십</td>
+          <td>81301</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/81301">숫자 문자열과 영단어</a></td>
           <td style="text-align: center"><a href="#">코드</a></td>
           <td>:arrow_right:</td>
           <td></td>

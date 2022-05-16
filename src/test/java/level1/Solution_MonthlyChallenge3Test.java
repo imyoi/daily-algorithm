@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Solution_MonthlyChallenge3Test {
+
     private final Solution_MonthlyChallenge3 smc3 = new Solution_MonthlyChallenge3();
 
     @Test
