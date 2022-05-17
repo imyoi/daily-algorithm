@@ -108,7 +108,7 @@
           <td>64061</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/64061">크레인 인형뽑기 게임</a></td>
           <td style="text-align: center"><a href="#">코드</a></td>
-          <td>:arrow_right:</td>
+          <td>:white_check_mark:</td>
           <td></td>
       </tr>
       <!--Solution_KakaoInternship2020-->
@@ -135,6 +135,22 @@
 <br>
 
 ---
+
+### Commit Convention
+```
+{Gitmoji}[유형] 커밋메시지 문제이름(#번호)
+```
+
+- :white_check_mark: [PGS] Add 폰켓몬(#1825)
+- :zap: [PGS] Update 소수 구하기(#12977)
+
+| Gitmoji | Commit Type |
+| ------- | ----------- |
+| :tada:`:tada:` | Initial commit |
+| :white_check_mark:`:white_check_mark:` | Adding a test |
+| :zap:`:zap:` | General Update |
+| :fire:`:fire:` | Removing code/files |
+| :page_facing_up:`:page_facing_up:` | Add/Update Documentation |
 
 ### Use Languages
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
