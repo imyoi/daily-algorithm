@@ -117,8 +117,8 @@
           <td rowspan="2">2018 KAKAO BLIND RECRUITMENT</td>
           <td>17681</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/17681">[1차] 비밀지도</a></td>
-          <td rowspan="2" style="text-align: center"><a href="#">코드</a></td>
-          <td>:construction:</td>
+          <td style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_KakaoBlind2018.java">코드</a></td>
+          <td>:white_check_mark:</td>
       </tr>
       <tr>
           <td>17682</td>
@@ -144,8 +144,6 @@
 | :page_facing_up:`:page_facing_up:` | Add/Update Documentation |
 ...
 
-:white_check_mark: [PGS] Add 폰켓몬(#1825) <br>
-:zap: [PGS] Update 소수 구하기(#12977)
 
 ### Use Languages
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
