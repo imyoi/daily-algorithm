@@ -124,12 +124,26 @@
           <td>2021 카카오 채용연계형 인턴십</td>
           <td>81301</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/81301">숫자 문자열과 영단어</a></td>
-          <td style="text-align: center"><a href="#">코드</a></td>
-          <td>:arrow_right:</td>
+          <td style="text-align: center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_KakaoInternship2021.java">코드</a></td>
+          <td>:white_check_mark:</td>
+          <td></td>
+      </tr>
+      <!--Solution_KakaoBlind2018-->
+      <tr>
+          <td rowspan="2">2018 KAKAO BLIND RECRUITMENT</td>
+          <td>17681</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/17681">[1차] 비밀지도</a></td>
+          <td rowspan="2" style="text-align: center"><a href="#">코드</a></td>
+          <td>:construction:</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>17682</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/17682">[1차] 다트게임</a></td>
+          <td>:construction:</td>
           <td></td>
       </tr>
   </table>
-
 
 <br>
 
@@ -141,10 +155,12 @@
 | Gitmoji | Commit Type |
 | ------- | ----------- |
 | :tada:`:tada:` | Initial commit |
+| :sparkles:`:sparkles:` | New feature |
 | :white_check_mark:`:white_check_mark:` | Adding a test |
-| :zap:`:zap:` | General Update |
 | :fire:`:fire:` | Removing code/files |
+| :bulb:`:bulb:` | Add/Update comments in source code |
 | :page_facing_up:`:page_facing_up:` | Add/Update Documentation |
+...
 
 :white_check_mark: [PGS] Add 폰켓몬(#1825) <br>
 :zap: [PGS] Update 소수 구하기(#12977)
