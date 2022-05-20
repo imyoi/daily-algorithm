@@ -121,6 +121,13 @@
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42889">실패율</a></td>
           <td align="center"><a href="#">:construction:</a></td>
       </tr>
+      <!--Solution_KakaoBlind2021-->
+      <tr>
+          <td>2021 KAKAO BLIND RECRUITMENT</td>
+          <td>72410</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/72410">신규 아이디 추천</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
   </table>
 
 <br>
