@@ -3,6 +3,7 @@ package level1;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Solution_KakaoBlind2018Test {
 
@@ -28,5 +29,23 @@ class Solution_KakaoBlind2018Test {
         //assertArrayEquals(result, new String[]{"#####","# # #", "### #", "#  ##", "#####"}); //case1
         assertArrayEquals(result, new String[]{"######", "###  #", "##  ##", " #### ", " #####", "### # "}); //case2
 
+    }
+
+    @Test
+    void solution02() {
+        //given
+        String dartResult = "ㄱ1S2D*3T";
+        String dartResult2 = "1D2S#10S";
+        String dartResult3 = "1D2S0T";
+        String dartResult4 = "1S*2T*3S";
+        String dartResult5 = "1D#2S*3S";
+        String dartResult6 = "1T2D3D#";
+        String dartResult7 = "1D2S3T*";
+
+        //when
+        int result = sk.solution02(dartResult7);
+
+        //then
+        assertEquals(result, 59);
     }
 }
