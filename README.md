@@ -119,7 +119,7 @@
           <td>2019 KAKAO BLIND RECRUITMENT</td>
           <td>42889</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42889">실패율</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_KakaoBlind2019.java">:white_check_mark:</a></td>
       </tr>
       <!--Solution_KakaoBlind2021-->
       <tr>
