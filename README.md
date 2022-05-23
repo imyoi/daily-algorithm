@@ -126,6 +126,20 @@
           <td>2021 KAKAO BLIND RECRUITMENT</td>
           <td>72410</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/72410">신규 아이디 추천</a></td>
+          <td align="center"><a href="https://github.com/icolaaa/coding-test/blob/master/src/main/java/level1/Solution_KakaoBlind2021.java">:white_check_mark:</a></td>
+      </tr>
+      <!--Solution_KakaoBlind2022-->
+      <tr>
+          <td>2022 KAKAO BLIND RECRUITMENT</td>
+          <td>92334</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/92334">신고 결과 받기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <!--Solution_DevMatching2021 -->
+      <tr>
+          <td>2021 Dev-Matching: 웹 백엔드 개발자(상반기)</td>
+          <td>77484</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/77484">로또의 최고 순위와 최저 순위</a></td>
           <td align="center"><a href="#">:construction:</a></td>
       </tr>
   </table>
