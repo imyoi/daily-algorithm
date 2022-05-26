@@ -133,7 +133,7 @@
           <td>2022 KAKAO BLIND RECRUITMENT</td>
           <td>92334</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/92334">신고 결과 받기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_KakaoBlind2022.java">:white_check_mark:</a></td>
       </tr>
       <!--Solution_DevMatching2021 -->
       <tr>
