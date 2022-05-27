@@ -1,4 +1,4 @@
-## Coding-Test
+## Algorithm
 
 #### 프로그래머스
 
@@ -8,6 +8,9 @@
           <th style="text-align: center">#</th>
           <th style="text-align: center">문제</th>
           <th style="text-align: center">상태</th>
+      </tr>
+      <tr>
+          <td colspan="4" align="center">:zap: <b>코딩테스트 연습</b> :zap:</td>
       </tr>
       <!--Solution_MonthlyChallenge1-->
       <tr>
@@ -141,6 +144,34 @@
           <td>77484</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/77484">로또의 최고 순위와 최저 순위</a></td>
           <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_DevMatching2021.java">:white_check_mark:</a></td>
+      </tr>
+      <tr>
+          <td colspan="4" align="center">:rotating_light: <b>코딩테스트 고득점 Kit</b> :rotating_light:</td>
+      </tr>
+      <!--Solution_AlgorithmKit-->
+      <tr>
+          <td>해시</td>
+          <td>42576</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42576">완주하지 못한 선수</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>정렬</td>
+          <td>42748</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42748">K번째수</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>완전탐색</td>
+          <td>42840</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42840">모의고사</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>탐욕법</td>
+          <td>42862</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42862">체육복</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
       </tr>
   </table>
 
