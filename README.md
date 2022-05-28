@@ -159,7 +159,7 @@
           <td>정렬</td>
           <td>42748</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42748">K번째수</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_AlgorithmKit.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>완전탐색</td>
