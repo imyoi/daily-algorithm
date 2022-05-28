@@ -1,5 +1,6 @@
 package level1;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,6 +30,33 @@ public class Solution_AlgorithmKit {
                 return key;
             }
         }
+        return answer;
+    }
+
+
+    /**
+     * #42748
+     * - commands의 각 원소는 길이가 3
+     * @param array
+     * @param commands : [i,j,k]를 원소로 가진 2차원 배열
+     * @return array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수
+     * */
+    public int[] solution02(int[] array, int[][] commands) {
+        int[] answer = new int[commands.length];
+
+        int i = 0;
+        while(i < commands.length){
+            int fromIndex = commands[i][0]-1;
+            int toIndex = commands[i][1];
+            int k = commands[i][2];
+
+            int[] range = Arrays.copyOfRange(array, fromIndex, toIndex);
+            Arrays.sort(range);
+
+            answer[i] = range[k-1];
+            i++;
+        }
+
         return answer;
     }
 }
