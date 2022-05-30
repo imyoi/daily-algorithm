@@ -1,5 +1,6 @@
 package level1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -58,5 +59,52 @@ public class Solution_AlgorithmKit {
         }
 
         return answer;
+    }
+
+
+    /**
+     * #42840
+     * - 시험은 최대 10,000 문제로 구성되어있습니다.
+     * - 가장 높은 점수를 받은 사람이 여럿일 경우, return하는 값을 오름차순 정렬해주세요.
+     * # 1번 수포자가 찍는 방식: 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, ...
+     * # 2번 수포자가 찍는 방식: 2, 1, 2, 3, 2, 4, 2, 5, 2, 1, 2, 3, 2, 4, 2, 5, ...
+     * # 3번 수포자가 찍는 방식: 3, 3, 1, 1, 2, 2, 4, 4, 5, 5, 3, 3, 1, 1, 2, 2, 4, 4, 5, 5, ...
+     * @param answers: 1번 문제부터 마지막 문제까지의 정답이 순서대로 들은 배열
+     * @return 가장 많은 문제를 맞힌 사람의 배열
+     * */
+    public int[] solution03(int[]answers) {
+        int[] one = {1,2,3,4,5};
+        int[] two = {2,1,2,3,2,4,2,5};
+        int[] three = {3,3,1,1,2,2,4,4,5,5};
+
+        int[] score = new int[3];//수포자3명
+        score[0] = getScore(one, answers);
+        score[1] = getScore(two, answers);
+        score[2] = getScore(three, answers);
+
+        int max = 0;
+        for(int s : score) {
+            max = Math.max(s, max); //최대값
+        }
+
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for(int i=0; i<score.length; i++) {
+            if(max == 0) break;
+            if(max == score[i]) {list.add(i+1);}
+        }
+
+        int[] answer = new int[list.size()];
+        for(int i=0; i<answer.length; i++) {
+            answer[i] = list.get(i);
+        }
+        return answer;
+    }
+
+    public static int getScore(int[] arr, int[] answers) {
+        int count = 0;
+        for(int i=0; i<answers.length; i++) {
+            if(arr[i % arr.length] == answers[i]) count++;
+        }
+        return count;
     }
 }
