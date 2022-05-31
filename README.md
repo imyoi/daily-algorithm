@@ -16,7 +16,7 @@
           <td rowspan="5">연습문제</td>
           <td>12901</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12901">2016</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12903</td>
