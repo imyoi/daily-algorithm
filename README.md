@@ -10,6 +10,35 @@
           <th style="text-align: center">상태</th>
       </tr>
       <tr>
+          <td colspan="4" align="center">:seedling: <b>연습문제</b> :seedling:</td>
+      </tr>
+      <tr>
+          <td rowspan="5">연습문제</td>
+          <td>12901</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12901">2016</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12903</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12903">가운데 글자 가져오기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12906</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12906">같은 숫자는 싫어</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12910</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12910">나누어 떨어지는 숫자 배열</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12912</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12912">두 정수 사이의 합</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
           <td colspan="4" align="center">:zap: <b>코딩테스트 연습</b> :zap:</td>
       </tr>
       <!--Solution_MonthlyChallenge1-->
@@ -171,7 +200,7 @@
           <td>탐욕법</td>
           <td>42862</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/42862">체육복</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_AlgorithmKit.java">:white_check_mark:</a></td>
       </tr>
   </table>
 
