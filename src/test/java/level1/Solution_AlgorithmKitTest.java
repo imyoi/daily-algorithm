@@ -63,4 +63,18 @@ class Solution_AlgorithmKitTest {
         assertArrayEquals(result5, new int[]{});
         assertArrayEquals(result6, new int[]{1,3});
     }
+
+    @Test
+    void solution04() {
+        //given
+        int n = 3;
+        int[] lost = {1,2};
+        int[] reserve = {2,3};
+
+        //when
+        int result = sa.solution04(n, lost, reserve);
+
+        //then
+        assertEquals(result, 2);
+    }
 }
