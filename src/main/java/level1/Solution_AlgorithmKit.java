@@ -107,4 +107,46 @@ public class Solution_AlgorithmKit {
         }
         return count;
     }
+
+
+    /**
+     * #42862
+     * - 체육복을 도난당한 학생의 수는 1명 이상 n명 이하이고 중복되는 번호는 없습니다.
+     * - 여벌의 체육복을 가져온 학생의 수는 1명 이상 n명 이하이고 중복되는 번호는 없습니다.
+     * - 여벌 체육복을 가져온 학생이 체육복을 도난당했을 수 있습니다. 남은 체육복이 하나이기에 다른 학생에게는 체육복을 빌려줄 수 없습니다.
+     * @param n : 전체 학생의 수
+     * @param lost : 체육복을 도난당한 학생들의 번호가 담긴 배열
+     * @param reserve : 여벌의 체육복을 가져온 학생들의 번호가 담긴 배열
+     * @return 체육수업을 들을 수 있는 학생의 최댓값
+     * */
+    public int solution04(int n, int[] lost, int[] reserve) {
+        int cnt = 0;
+        Arrays.sort(lost);
+        Arrays.sort(reserve);
+
+        //여벌 체육복을 가져온 학생이 도난당했을 경우, 자기 자신이 써야하므로 체육복을 빌려줄 수 없음
+        for(int i=0; i<lost.length; i++) {
+            for(int j=0; j<reserve.length; j++) {
+                if(lost[i] == reserve[j]) {
+                    lost[i] = reserve[j] = -1;
+                    cnt++;
+                    break;
+                }
+            }
+        }
+        //인접한 앞,뒤학생에게 빌려줄 수 있음
+        for(int l : lost) {
+            for(int i=0; i<reserve.length; i++) {
+                if(l == reserve[i]-1 || l == reserve[i] +1) {
+                    reserve[i] = -1;
+                    cnt++;
+                    break;
+                }
+            }
+        }
+
+        //체육수업을 듣는 학생의 최대값 = 전체학생 수 - (잃어버린 학생 수 - 빌린 학생 수)
+        int answer = n - (lost.length - cnt);
+        return answer;
+    }
 }
