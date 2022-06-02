@@ -2,6 +2,7 @@ package level1;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Solution_PracticeTest {
@@ -34,5 +35,20 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, "c");
         assertEquals(result2, "we");
+    }
+
+    @Test
+    void solution03_같은_숫자는_싫어() {
+        //given
+        int[] arr = {1,1,3,3,0,1,1};
+        int[] arr2 = {4,4,4,3,3};
+
+        //when
+        int[] result = sp.solution03(arr);
+        int[] result2 = sp.solution03(arr2);
+
+        //then
+        assertArrayEquals(result, new int[]{1,3,0,1});
+        assertArrayEquals(result2, new int[]{4,3});
     }
 }
