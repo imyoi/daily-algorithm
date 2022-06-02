@@ -17,4 +17,15 @@ public class Solution_Practice {
 
         return cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.US).toUpperCase();
     }
+
+    /**
+     * #12903
+     * - 단어의 길이가 짝수라면 가운에 두글자를 반환하면 됩니다.
+     * @param s : 월
+     * @return 단어 s의 가운데 글자 반환
+     * */
+    public String solution02(String s) {
+        int idx = (s.length()-1)/2;
+        return (s.length()%2==0) ? s.substring(idx, idx+2) : s.substring(idx, idx+1);
+    }
 }
