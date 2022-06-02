@@ -21,12 +21,12 @@
       <tr>
           <td>12903</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12903">가운데 글자 가져오기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12906</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12906">같은 숫자는 싫어</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12910</td>
