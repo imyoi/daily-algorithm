@@ -1,6 +1,8 @@
 package level1;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Locale;
 
 public class Solution_Practice {
@@ -27,5 +29,28 @@ public class Solution_Practice {
     public String solution02(String s) {
         int idx = (s.length()-1)/2;
         return (s.length()%2==0) ? s.substring(idx, idx+2) : s.substring(idx, idx+1);
+    }
+
+    /**
+     * #12906
+     * @param arr : 숫자 0부터 9까지의 배열
+     * @return 배열 arr에서 연속적으로 나타나는 숫자는 제거하고 남은 수들
+     * */
+    public int[] solution03(int []arr) {
+        List<Integer> list = new ArrayList<>();
+        for(int i=0; i<arr.length; i++){
+            if(arr.length-1 == i) { //마지막
+                list.add(arr[i]);
+                break;
+            }
+            if(arr[i] != arr[i+1]) {
+                list.add(arr[i]);
+            }
+        }
+        int[] answer = new int[list.size()];
+        for(int i=0; i<list.size(); i++) {
+            answer[i] = list.get(i);
+        }
+        return answer;
     }
 }
