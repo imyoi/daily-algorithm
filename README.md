@@ -1,11 +1,11 @@
 ## Algorithm
 
-#### 프로그래머스
+#### 프로그래머스 <img width="30" alt="level_badge1" src="https://user-images.githubusercontent.com/104837715/171791682-13fc1d40-ea11-43e9-93b9-e932ec90fcdb.png">
 
   <table>
       <tr>
           <th style="text-align: center">분류</th>
-          <th style="text-align: center">#</th>
+          <th style="text-align: center">번호</th>
           <th style="text-align: center">문제</th>
           <th style="text-align: center">상태</th>
       </tr>
@@ -31,7 +31,7 @@
       <tr>
           <td>12910</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12910">나누어 떨어지는 숫자 배열</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12912</td>
