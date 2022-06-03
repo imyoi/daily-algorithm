@@ -66,4 +66,17 @@ class Solution_PracticeTest {
         assertArrayEquals(result, new int[]{1,2,3,36});
         assertArrayEquals(result2, new int[]{-1});
     }
+
+    @Test
+    void solution05_두_정수_사이의_합() {
+        //given
+        int a = 5;
+        int b = 3;
+
+        //when
+        long result = sp.solution05(a, b);
+
+        //then
+        assertEquals(result, 12);
+    }
 }
