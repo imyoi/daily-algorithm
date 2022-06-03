@@ -1,9 +1,6 @@
 package level1;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Locale;
+import java.util.*;
 
 public class Solution_Practice {
 
@@ -50,6 +47,46 @@ public class Solution_Practice {
         int[] answer = new int[list.size()];
         for(int i=0; i<list.size(); i++) {
             answer[i] = list.get(i);
+        }
+        return answer;
+    }
+
+    /**
+     * #12910
+     * - divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을 담아 반환하세요.
+     * @param arr : 자연수를 담은 배열
+     * @param divisor : 나누는 값
+     * @return array의 각 element 중 divisor로 나누어 떨어지는 값을 오름차순으로 정렬한 배열을 반환하는 함수
+     * */
+    public int[] solution04(int[] arr, int divisor) {
+        List<Integer> list = new ArrayList<>();
+        for(int a : arr) {
+            if(a % divisor == 0) {
+                list.add(a);
+            }
+        }
+        int[] answer = new int[list.size()];
+        for(int i=0; i<list.size(); i++) {
+            answer[i] = list.get(i);
+        }
+        Arrays.sort(answer);
+
+        if(answer.length == 0) { //나누어 떨어지는 수가 없다면 -1 리턴
+            return new int[]{-1};
+        }
+        return answer;
+    }
+
+    /**
+     * #12910 studies
+     * 다른 풀이 (1)
+     * */
+    public int[] studies04(int[] arr, int divisor) {
+        int[] answer = Arrays.stream(arr).filter(a -> a % divisor == 0).toArray();
+        Arrays.sort(answer);
+
+        if(answer.length == 0) {
+            return new int[]{-1};
         }
         return answer;
     }
