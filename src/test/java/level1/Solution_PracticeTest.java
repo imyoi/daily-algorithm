@@ -51,4 +51,19 @@ class Solution_PracticeTest {
         assertArrayEquals(result, new int[]{1,3,0,1});
         assertArrayEquals(result2, new int[]{4,3});
     }
+
+    @Test
+    void solution04_나누어_떨어지는_숫자_배열() {
+        //given
+        int[] arr = {2,36,1,3};
+        int[] arr2 = {3,2,6};
+
+        //when
+        int[] result = sp.solution04(arr, 1);
+        int[] result2 = sp.studies04(arr2, 10);
+
+        //then
+        assertArrayEquals(result, new int[]{1,2,3,36});
+        assertArrayEquals(result2, new int[]{-1});
+    }
 }
