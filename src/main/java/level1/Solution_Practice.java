@@ -90,4 +90,20 @@ public class Solution_Practice {
         }
         return answer;
     }
+
+    /**
+     * #12912
+     * - a와 b가 같은 경우는 둘 중 아무 수나 리턴하세요.
+     * - a와 b의 대소관계는 정해져있지 않습니다.
+     * @param a
+     * @param b
+     * @return a와 b 사이에 속한 모든 정수의 합
+     * */
+    public long solution05(int a, int b) {
+        long answer = 0;
+        for(int i=Math.min(a,b); i<=Math.max(a,b); i++) {
+            answer += i;
+        }
+        return answer;
+    }
 }
