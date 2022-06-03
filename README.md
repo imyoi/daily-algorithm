@@ -13,7 +13,7 @@
           <td colspan="4" align="center">:seedling: <b>연습문제</b> :seedling:</td>
       </tr>
       <tr>
-          <td rowspan="5">연습문제</td>
+          <td rowspan="14">연습문제</td>
           <td>12901</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12901">2016</a></td>
           <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_Practice.java">:white_check_mark:</a></td>
@@ -36,6 +36,51 @@
       <tr>
           <td>12912</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12912">두 정수 사이의 합</a></td>
+          <td align="center"><a href="https://github.com/imyoi/coding-test/blob/master/src/main/java/level1/Solution_Practice.java">:white_check_mark:</a></td>
+      </tr>
+      <tr>
+          <td>12915</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12915">문자열 내 마음대로 정렬하기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12916</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12916">문자열 내 p와 y의 개수</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12917</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12917">문자열 내림차순으로 배치하기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12918</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12916">문자열 다루기 기본</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12919</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12917">서울에서 김서방 찾기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12921</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12921">소수 찾기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12922</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12922">수박수박수박수박수박수?</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12925</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12925">문자열을 정수로 바꾸기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12926</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12926">시저 암호</a></td>
           <td align="center"><a href="#">:construction:</a></td>
       </tr>
       <tr>
