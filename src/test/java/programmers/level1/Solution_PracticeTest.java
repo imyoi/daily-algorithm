@@ -79,4 +79,17 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, 12);
     }
+
+    @Test
+    void solution06_문자열_내마음대로_정렬하기() {
+        //given
+        String[] strings = {"abce", "abcd", "cdx"};
+        int n = 2;
+
+        //when
+        String[] answer = sp.solution06(strings, n);
+
+        //then
+        assertArrayEquals(answer, new String[]{"abcd", "abce", "cdx"});
+    }
 }
