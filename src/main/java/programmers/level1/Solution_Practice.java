@@ -106,4 +106,32 @@ public class Solution_Practice {
         }
         return answer;
     }
+
+    /**
+     * #12915
+     * - strings의 원소는 소문자 알파벳으로 이루어져 있습니다.
+     * - 모든 strings의 원소의 길이는 n보다 큽니다.
+     * - 인덱스 1의 문자가 같은 문자열이 여럿 일 경우, 사전순으로 앞선 문자열이 앞쪽에 위치합니다.
+     * @param strings : 문자열로 구성된 리스트
+     * @param n : 정수
+     * @return 각 문자열의 인덱스 n번째 글자를 기준으로 오름차순 정렬한 배열
+     * */
+    public String[] solution06(String[] strings, int n) {
+        String[] answer = new String[strings.length];
+        int x = 0;
+
+        for(String s : strings) {
+            if(x < strings.length) {
+                System.out.println(s.charAt(n));
+                strings[x] = s.charAt(n) + s;
+                x++;
+            }
+        }
+        Arrays.sort(strings);
+
+        for(int i=0; i<strings.length; i++) {
+            answer[i] = strings[i].substring(1);
+        }
+        return answer;
+    }
 }
