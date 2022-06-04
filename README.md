@@ -1,4 +1,4 @@
-## Algorithm
+## Daily Algorithm
 
 #### 프로그래머스
 
@@ -206,6 +206,8 @@
 
 <br>
 
+#### 백준알고리즘
+
 ---
 ### Commit Convention
 ```
@@ -217,6 +219,7 @@
 | :sparkles:`:sparkles:` | New feature |
 | :white_check_mark:`:white_check_mark:` | Adding a test |
 | :fire:`:fire:` | Removing code/files |
+| :truck:`:truck:` | Move or rename resources |
 | :bulb:`:bulb:` | Add/Update comments in source code |
 | :page_facing_up:`:page_facing_up:` | Add/Update Documentation |
 ...
