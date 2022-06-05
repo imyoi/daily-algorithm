@@ -122,7 +122,6 @@ public class Solution_Practice {
 
         for(String s : strings) {
             if(x < strings.length) {
-                System.out.println(s.charAt(n));
                 strings[x] = s.charAt(n) + s;
                 x++;
             }

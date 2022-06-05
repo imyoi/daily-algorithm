@@ -249,7 +249,23 @@
       </tr>
   </table>
 
+
 #### 백준알고리즘
+<table>
+    <tr>
+        <th style="text-align: center">단계</th>
+        <th style="text-align: center">제목</th>
+        <th style="text-align: center">상태</th>
+        <th style="text-align: center">문제 수</th>
+    </tr>
+    <tr>
+        <td align="center">1</td>
+        <td align="center"><a href="https://www.acmicpc.net/step/1">입출력과 사칙연산</a></td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.md"><img width="55" alt="baekjoon_1" src="https://user-images.githubusercontent.com/104837715/172053974-addf51e3-121f-457c-9f3a-3cf2da0285bd.png"></a>
+</td>
+        <td align="center">1 / 14</td>
+    </tr>
+</table>
 
 
 ---
