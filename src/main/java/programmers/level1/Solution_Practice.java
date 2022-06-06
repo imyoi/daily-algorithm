@@ -133,4 +133,40 @@ public class Solution_Practice {
         }
         return answer;
     }
+
+    /**
+     * #12916
+     * - 문자열 s는 알파벳으로만 이루어져 있습니다.
+     * - 'p', 'y' 모두 하나도 없는 경우는 항상 True를 리턴
+     * @param s : 대문자와 소문자가 섞여있는 문자열
+     * @return s에 'p'의 개수와 'y'의 개수를 비교해 같으면 True, 다르면 False
+     * */
+    public boolean solution07(String s) {
+        int pCnt = 0; //p의 개수
+        int yCnt = 0; //y의 개수
+
+        int i = 0;
+        while(i < s.length()) {
+            if(s.toLowerCase().charAt(i) == 'p') pCnt++;
+            if(s.toLowerCase().charAt(i) == 'y') yCnt++;
+            i++;
+        }
+        return (pCnt == yCnt) ? true : false;
+    }
+
+    /**
+     * #12916 studies
+     * 다른 풀이
+     * */
+    public boolean studies07(String s) {
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.toLowerCase().charAt(i) == 'p')
+                count++;
+            else if (s.toLowerCase().charAt(i) == 'y')
+                count--;
+        }
+
+        return (count == 0) ? true : false;
+    }
 }
