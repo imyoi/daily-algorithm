@@ -92,4 +92,19 @@ class Solution_PracticeTest {
         //then
         assertArrayEquals(answer, new String[]{"abcd", "abce", "cdx"});
     }
+
+    @Test
+    void solution07_문자열_내_p와_y의_개수() {
+        //given
+        String s = "pPoooyY";
+        String s2 = "Pyy";
+
+        //when
+        boolean result = sp.solution07(s);
+        boolean result2 = sp.studies07(s2);
+
+        //then
+        assertEquals(result, true);
+        assertEquals(result2, false);
+    }
 }
