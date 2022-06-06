@@ -44,7 +44,7 @@
       <tr>
           <td>12916</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12916">문자열 내 p와 y의 개수</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12917</td>
