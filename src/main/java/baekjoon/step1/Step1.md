@@ -5,7 +5,7 @@
         <th style="text-align: center">번호</th>
         <th style="text-align: center">문제</th>
         <th style="text-align: center">상태</th>
-        <th style="text-align: center">알고리즘</th>
+        <th style="text-align: center">분류</th>
     </tr>
     <tr>
         <td align="center">2557</td>
