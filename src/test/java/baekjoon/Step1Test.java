@@ -20,4 +20,9 @@ class Step1Test {
     void solution03_고양이() {
         s.solution03();
     }
+
+    @Test
+    void solution04_개() {
+        s.solution04();
+    }
 }

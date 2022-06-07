@@ -29,4 +29,12 @@ public class Step1 {
     public void solution03() {
         System.out.println("\\    /\\\n )  ( ')\n(  /  )\n \\(__)|");
     }
+
+    /**
+     * #10172
+     * ", `, \ 등의 문자에 주의하며 개를 출력하는 문제
+     * */
+    public void solution04() {
+        System.out.println("|\\_/|\n|q p|   /}\n( 0 )\"\"\"\\\n|\"^\"`    |\n||_/=\\\\__|");
+    }
 }
