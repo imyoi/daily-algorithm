@@ -1,10 +1,10 @@
-## Daily Algorithm &nbsp;<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
+## :cloud: Daily Algorithm &nbsp;<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
 
-:cloud: 문제에 대한 진행 상태 및 풀이는 해당 디렉토리 내 md 파일에 정리하고 있습니다.
+ 문제에 대한 진행 상태 및 풀이는 해당 디렉토리 내 md 파일에 정리하고 있습니다.
 
 
 ### 프로그래머스
-##### 코딩테스트 연습 <img width="32" alt="level_badge1" src="https://user-images.githubusercontent.com/104837715/171791682-13fc1d40-ea11-43e9-93b9-e932ec90fcdb.png">
+#### 코딩테스트 연습 <img width="32" alt="level_badge1" src="https://user-images.githubusercontent.com/104837715/171791682-13fc1d40-ea11-43e9-93b9-e932ec90fcdb.png">
 <table>
     <tr>
         <th style="text-align: center">NO</th>
