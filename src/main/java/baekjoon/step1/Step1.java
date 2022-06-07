@@ -21,4 +21,12 @@ public class Step1 {
         System.out.println("강한친구 대한육군");
         System.out.println("강한친구 대한육군");
     }
+
+    /**
+     * #10171
+     * \, ' 등의 문자에 주의하며 고양이를 출력하는 문제
+     * */
+    public void solution03() {
+        System.out.println("\\    /\\\n )  ( ')\n(  /  )\n \\(__)|");
+    }
 }
