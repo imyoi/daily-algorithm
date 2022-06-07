@@ -15,7 +15,13 @@
     </tr>
     <tr>
         <td align="center">10718</td>
-        <td align="center"><a href="https://www.acmicpc.net/problem/2557">We love kriii</a></td>
+        <td align="center"><a href="https://www.acmicpc.net/problem/10718">We love kriii</a></td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
+        <td align="center">구현</td>
+    </tr>
+    <tr>
+        <td align="center">10171</td>
+        <td align="center"><a href="https://www.acmicpc.net/problem/10171">고양이</a></td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
         <td align="center">구현</td>
     </tr>

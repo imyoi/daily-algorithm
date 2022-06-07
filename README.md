@@ -3,8 +3,8 @@
 :cloud: 문제에 대한 진행 상태 및 풀이는 해당 디렉토리 내 md 파일에 정리하고 있습니다.
 
 
-### 프로그래머스 <img width="32" alt="level_badge1" src="https://user-images.githubusercontent.com/104837715/171791682-13fc1d40-ea11-43e9-93b9-e932ec90fcdb.png">
-
+### 프로그래머스
+##### 코딩테스트 연습 <img width="32" alt="level_badge1" src="https://user-images.githubusercontent.com/104837715/171791682-13fc1d40-ea11-43e9-93b9-e932ec90fcdb.png">
 <table>
     <tr>
         <th style="text-align: center">NO</th>
@@ -83,7 +83,7 @@
         <td align="center"><a href="https://www.acmicpc.net/step/1">입출력과 사칙연산</a></td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.md"><img width="55" alt="baekjoon_1" src="https://user-images.githubusercontent.com/104837715/172053974-addf51e3-121f-457c-9f3a-3cf2da0285bd.png"></a>
 </td>
-        <td align="center">2 / 14</td>
+        <td align="center">3 / 14</td>
     </tr>
 </table>
 
