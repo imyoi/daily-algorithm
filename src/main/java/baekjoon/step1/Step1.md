@@ -9,25 +9,49 @@
     </tr>
     <tr>
         <td align="center">2557</td>
-        <td align="center"><a href="https://www.acmicpc.net/problem/2557">Hello World</a></td>
+        <td><a href="https://www.acmicpc.net/problem/2557">Hello World</a></td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
         <td align="center">구현</td>
     </tr>
     <tr>
         <td align="center">10718</td>
-        <td align="center"><a href="https://www.acmicpc.net/problem/10718">We love kriii</a></td>
+        <td><a href="https://www.acmicpc.net/problem/10718">We love kriii</a></td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
         <td align="center">구현</td>
     </tr>
     <tr>
         <td align="center">10171</td>
-        <td align="center"><a href="https://www.acmicpc.net/problem/10171">고양이</a></td>
+        <td><a href="https://www.acmicpc.net/problem/10171">고양이</a></td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
         <td align="center">구현</td>
     </tr>
     <tr>
         <td align="center">10172</td>
-        <td align="center"><a href="https://www.acmicpc.net/problem/10172">개</a></td>
+        <td><a href="https://www.acmicpc.net/problem/10172">개</a></td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
+        <td align="center">구현</td>
+    </tr>
+    <tr>
+        <td align="center">1000</td>
+        <td><a href="https://www.acmicpc.net/problem/1000">A+B</a></td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
+        <td align="center">구현</td>
+    </tr>
+    <tr>
+        <td align="center">1001</td>
+        <td><a href="https://www.acmicpc.net/problem/1001">A-B</a></td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
+        <td align="center">구현</td>
+    </tr>
+    <tr>
+        <td align="center">10998</td>
+        <td><a href="https://www.acmicpc.net/problem/10998">AxB</a></td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
+        <td align="center">구현</td>
+    </tr>
+    <tr>
+        <td align="center">1008</td>
+        <td><a href="https://www.acmicpc.net/problem/1008">A/B</a></td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/baekjoon/step1/Step1.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
         <td align="center">구현</td>
     </tr>
