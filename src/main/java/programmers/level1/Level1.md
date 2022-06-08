@@ -49,7 +49,7 @@
       <tr>
           <td>12917</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12917">문자열 내림차순으로 배치하기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12918</td>
