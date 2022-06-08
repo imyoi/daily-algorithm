@@ -169,4 +169,16 @@ public class Solution_Practice {
 
         return (count == 0) ? true : false;
     }
+
+    /**
+     * #12917
+     * @param s : 길이 1 이상인 문자열
+     * @return 문자열 s에 나타나는 문자를 큰것부터 작은 순으로 정렬해 리턴
+     * */
+    public String solution08(String s) {
+        String[] strArr = s.split("");
+        Arrays.sort(strArr, Collections.reverseOrder()); //역정렬
+
+        return String.join("", strArr); //배열을 문자열로 반환
+    }
 }
