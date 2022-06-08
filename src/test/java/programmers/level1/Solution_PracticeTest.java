@@ -107,4 +107,16 @@ class Solution_PracticeTest {
         assertEquals(result, true);
         assertEquals(result2, false);
     }
+
+    @Test
+    void solution08_문자열_내림차순으로_배치하기() {
+        //given
+        String s = "Zbcdefg";
+
+        //when
+        String result = sp.solution08(s);
+
+        //then
+        assertEquals(result, "gfedcbZ");
+    }
 }
