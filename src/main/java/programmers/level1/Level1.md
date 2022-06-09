@@ -11,7 +11,7 @@
           <td colspan="4" align="center">:seedling: <b>연습문제</b> :seedling:</td>
       </tr>
       <tr>
-          <td rowspan="14">연습문제</td>
+          <td rowspan="30">연습문제</td>
           <td>12901</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12901">2016</a></td>
           <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
@@ -54,12 +54,12 @@
       <tr>
           <td>12918</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12918">문자열 다루기 기본</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12919</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12919">서울에서 김서방 찾기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12921</td>
@@ -79,6 +79,86 @@
       <tr>
           <td>12926</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12926">시저 암호</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12928</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12928">약수의 합</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12930</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12930">이상한 문자 만들기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12931</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12931">자릿수 더하기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12932</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12932">자연수 뒤집어 배열로 만들기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12933</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12933">정수 내림차순으로 배치하기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12934</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12934">정수 제곱근 판별</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12935</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12935">제일 작은수 더하기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12937</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12937">짝수와 홀수</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12940</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12940">최대공약수와 최소공배수</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12943</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12943">콜라츠 추측</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12944</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12944">평균 구하기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12947</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12947">하샤드 수</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12948</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12948">핸드폰 번호 가리기</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12950</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12950">행렬의 덧셈</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12954</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12954">x만큼 간격이 있는 n개의 숫자</a></td>
+          <td align="center"><a href="#">:construction:</a></td>
+      </tr>
+      <tr>
+          <td>12969</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12969">직사각형 별찍기</a></td>
           <td align="center"><a href="#">:construction:</a></td>
       </tr>
       <tr>
