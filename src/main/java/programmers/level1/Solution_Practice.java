@@ -181,4 +181,49 @@ public class Solution_Practice {
 
         return String.join("", strArr); //배열을 문자열로 반환
     }
+
+    /**
+     * #12918
+     * - 예를 들어 s가 "a234"이면 False를 리턴하고 "1234"라면 True를 리턴하면 됩니다.
+     * ! {n} : 앞의 문자가 정확히 n번 나옴
+     * @param s : 길이 1 이상, 길이 8 이하인 문자열
+     * @return 문자열 s의 길이가 4 혹은 6이고, 숫자로만 구성돼있는지 확인해주는 함수
+     * */
+    public boolean solution09(String s) {
+        boolean answer = false;
+        if(s.matches("[0-9]{4}") || s.matches("[0-9]{6}")) {
+            answer = true;
+        }
+        return answer;
+    }
+
+    /**
+     * #12919
+     * [제한 사항]
+     * - "Kim"은 반드시 seoul 안에 포함되어 있습니다.
+     * - seoul에 "Kim"은 오직 한 번만 나타나며 잘못된 값이 입력되는 경우는 없습니다.
+     * @param seoul : 길이 1 이상, 1000 이하인 배열
+     * @return String형 배열 seoul의 element중 "Kim"의 위치 x를 찾아, "김서방은 x에 있다"는 String을 반환하는 함수
+     * */
+    public String solution10(String[] seoul) {
+        String answer = "";
+        int i = 0;
+        for(String s : seoul) {
+            if("Kim".equals(s)) {
+                answer = "김서방은 " + i + "에 있다";
+            }
+            i++;
+        }
+        return answer;
+    }
+
+    /**
+     * #12919 studies
+     * 다른 풀이
+     * */
+    public String studies10(String[] seoul) {
+        //리스트 앞쪽부터 인자와 동일한 객체가 있는지 찾고 존재시 해당 인덱스 리턴(존재하지 않는다면 -1)
+        int x = Arrays.asList(seoul).indexOf("Kim");
+        return "김서방은 "+ x + "에 있다";
+    }
 }
