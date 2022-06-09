@@ -119,4 +119,28 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, "gfedcbZ");
     }
+
+    @Test
+    void solution09_문자열_다루기_기본() {
+        //given
+        String s = "1234";
+
+        //when
+        boolean result = sp.solution09(s);
+
+        //then
+        assertEquals(result, true);
+    }
+
+    @Test
+    void solution10_서울에서_김서방_찾기() {
+        //given
+        String[] seoul = {"Jane", "Kim"};
+
+        //when
+        String result = sp.solution10(seoul);
+
+        //then
+        assertEquals(result, "김서방은 1에 있다");
+    }
 }
