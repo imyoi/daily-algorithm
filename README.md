@@ -8,61 +8,74 @@
 <table>
     <tr>
         <th style="text-align: center">NO</th>
-        <th>제목</th>
+        <th>제목<sup> *(해당 소스 이동)</sup></th>
         <th style="text-align: center">문제 수</th>
         <th style="text-align: center">상태</th>
     </tr>
     <tr>
         <td align="center">1</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">연습문제</a></td>
+        <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_Practice.java">연습문제</a></td>
         <td align="center">10 / 30</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">2</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">월간 코드 챌린지</a></td>
+        <td>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_MonthlyChallenge1.java">월간 코드 챌린지 시즌 1</a><br>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_MonthlyChallenge2.java">월간 코드 챌린지 시즌 2</a><br>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_MonthlyChallenge3.java">월간 코드 챌린지 시즌 3</a>
+        </td>
         <td align="center">7 / 7</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">3</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">위클리 챌린지</a></td>
+        <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_WeeklyChallenge.java">위클리 챌린지</a></td>
         <td align="center">2 / 2</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">4</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">Summer/Winter Coding(~2018)</a></td>
+        <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_SummerWinter2018.java">Summer/Winter Coding(~2018)</a></td>
         <td align="center">2 / 2</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>  
     <tr>
         <td align="center">5</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">찾아라 프로그래밍 마에스터</a></td>
+        <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_Maester.java">찾아라 프로그래밍 마에스터</a></td>
         <td align="center">1 / 1</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">6</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">카카오 인턴십</a></td>
+        <td>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_KakaoInternship2019.java">2019 카카오 개발자 겨울 인턴십️</a><br>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_KakaoInternship2020.java">2020 카카오 인턴십️</a><br>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_KakaoInternship2021.java">2021 카카오 채용연계형 인턴십️</a>
+        </td>
         <td align="center">3 / 3</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">7</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">KAKAO BLIND RECRUITMENT</a></td>
+        <td>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_KakaoBlind2018.java">2018 KAKAO BLIND RECRUITMENT️</a>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_KakaoBlind2019.java">2019 KAKAO BLIND RECRUITMENT️</a>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_KakaoBlind2021.java">2021 KAKAO BLIND RECRUITMENT️</a>
+            <a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_KakaoBlind2022.java">2022 KAKAO BLIND RECRUITMENT️</a>
+        </td>
         <td align="center">5 / 5</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">8</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">2021 Dev-Matching: 웹 백엔드 개발자(상반기)</a></td>
+        <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_DevMatching2021.java">2021 Dev-Matching: 웹 백엔드 개발자(상반기)</a></td>
         <td align="center">1 / 1</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">9</td>
-        <td><a href="https://programmers.co.kr/learn/challenges">코딩테스트 고득점 Kit</a></td>
+        <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_AlgorithmKit.java">코딩테스트 고득점 Kit</a></td>
         <td align="center">4 / 4</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
