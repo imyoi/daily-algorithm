@@ -143,4 +143,16 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, "김서방은 1에 있다");
     }
+
+    @Test
+    void solution11_소수_찾기() {
+        //given
+        int n = 5;
+
+        //when
+        int result = sp.solution11(n);
+
+        //then
+        assertEquals(result, 3);
+    }
 }
