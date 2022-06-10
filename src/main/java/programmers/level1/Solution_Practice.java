@@ -226,4 +226,29 @@ public class Solution_Practice {
         int x = Arrays.asList(seoul).indexOf("Kim");
         return "김서방은 "+ x + "에 있다";
     }
+
+    /**
+     * #12921
+     * ! 에라스토테네스의 체
+     * @param n : 2이상 1000000이하의 자연수
+     * @return 1부터 입력받은 숫자 n 사이에 있는 소수의 개수
+     * */
+    public int solution11(int n) {
+        int answer = 0;
+        boolean[] isPrime = new boolean[n+1];
+        Arrays.fill(isPrime, true);
+        isPrime[0] = isPrime[1] = false; //소수에서 제외
+
+        for(int i=2; i*i<=n; i++) {
+            if(isPrime[i]) {
+                for(int j=i*i; j<=n; j+=i) {
+                    isPrime[j] = false; //i(자신)의 배수가 되는 수를 지운다
+                }
+            }
+        }
+        for(boolean p : isPrime) {
+            if(p) answer++;
+        }
+        return answer;
+    }
 }
