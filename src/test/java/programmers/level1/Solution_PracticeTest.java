@@ -155,4 +155,28 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, 3);
     }
+
+    @Test
+    void solution12_수박수박수박수박수박수() {
+        //given
+        int n = 4;
+
+        //when
+        String result = sp.solution12(n);
+
+        //then
+        assertEquals(result, "수박수박");
+    }
+
+    @Test
+    void solution13_문자열을_정수로_바꾸기() {
+        //given
+        String s = "-1234";
+
+        //when
+        int result = sp.solution13(s);
+
+        //then
+        assertEquals(result, -1234);
+    }
 }
