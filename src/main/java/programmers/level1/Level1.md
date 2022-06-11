@@ -69,12 +69,12 @@
       <tr>
           <td>12922</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12922">수박수박수박수박수박수?</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12925</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12925">문자열을 정수로 바꾸기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12926</td>
