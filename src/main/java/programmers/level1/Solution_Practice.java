@@ -277,4 +277,29 @@ public class Solution_Practice {
     public int solution13(String s) {
         return Integer.parseInt(s);
     }
+
+    /**
+     * #12926
+     * 시저암호: 어떤 문장의 각 알파벳을 일정한 거리만큼 밀어서 다른 알파벳으로 바꾸는 암호화 방식
+     * - 공백은 아무리 밀어도 공백입니다.
+     * @param s : 문자열
+     * @param n : 거리
+     * @return 문자열 s를 숫자로 변환한 결과를 반환
+     * */
+    public String solution14(String s, int n) {
+        String answer = "";
+
+        for(int i=0; i<s.length(); i++) {
+            char ch = (char)(s.charAt(i)+n);
+            if(s.charAt(i) == ' ') { //공백
+                answer += ' ';
+                continue;
+            }else if(s.charAt(i) < 91 && ch > 90 || ch > 122) { //Z(z)가 넘어가는 경우
+                ch -= 26;
+            }
+            answer += ch;
+        }
+
+        return answer;
+    }
 }
