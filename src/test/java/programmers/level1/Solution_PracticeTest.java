@@ -179,4 +179,17 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, -1234);
     }
+
+    @Test
+    void solution14_시저_암호() {
+        //given
+        String s = "a B z";
+        int n = 4;
+
+        //when
+        String result = sp.solution14(s, n);
+
+        //then
+        assertEquals(result, "e F d");
+    }
 }
