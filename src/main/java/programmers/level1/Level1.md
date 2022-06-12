@@ -79,7 +79,7 @@
       <tr>
           <td>12926</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12926">시저 암호</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12928</td>

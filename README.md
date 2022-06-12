@@ -15,7 +15,7 @@
     <tr>
         <td align="center">1</td>
         <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_Practice.java">연습문제</a></td>
-        <td align="center">13 / 30</td>
+        <td align="center">14 / 30</td>
         <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
