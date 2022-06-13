@@ -84,12 +84,12 @@
       <tr>
           <td>12928</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12928">약수의 합</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12930</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12930">이상한 문자 만들기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12931</td>
