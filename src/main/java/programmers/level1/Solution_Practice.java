@@ -19,7 +19,7 @@ public class Solution_Practice {
 
     /**
      * #12903
-     * - 단어의 길이가 짝수라면 가운에 두글자를 반환하면 됩니다.
+     * ✓ 단어의 길이가 짝수라면 가운에 두글자를 반환하면 됩니다.
      * @param s : 월
      * @return 단어 s의 가운데 글자 반환
      * */
@@ -53,7 +53,7 @@ public class Solution_Practice {
 
     /**
      * #12910
-     * - divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을 담아 반환하세요.
+     * ✓ divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을 담아 반환하세요.
      * @param arr : 자연수를 담은 배열
      * @param divisor : 나누는 값
      * @return array의 각 element 중 divisor로 나누어 떨어지는 값을 오름차순으로 정렬한 배열을 반환하는 함수
@@ -79,7 +79,7 @@ public class Solution_Practice {
 
     /**
      * #12910 studies
-     * 다른 풀이 (1)
+     * 다른 풀이
      * */
     public int[] studies04(int[] arr, int divisor) {
         int[] answer = Arrays.stream(arr).filter(a -> a % divisor == 0).toArray();
@@ -93,8 +93,8 @@ public class Solution_Practice {
 
     /**
      * #12912
-     * - a와 b가 같은 경우는 둘 중 아무 수나 리턴하세요.
-     * - a와 b의 대소관계는 정해져있지 않습니다.
+     * ✓ a와 b가 같은 경우는 둘 중 아무 수나 리턴하세요.
+     * ✓ a와 b의 대소관계는 정해져있지 않습니다.
      * @param a
      * @param b
      * @return a와 b 사이에 속한 모든 정수의 합
@@ -109,9 +109,9 @@ public class Solution_Practice {
 
     /**
      * #12915
-     * - strings의 원소는 소문자 알파벳으로 이루어져 있습니다.
-     * - 모든 strings의 원소의 길이는 n보다 큽니다.
-     * - 인덱스 1의 문자가 같은 문자열이 여럿 일 경우, 사전순으로 앞선 문자열이 앞쪽에 위치합니다.
+     * ✓ strings의 원소는 소문자 알파벳으로 이루어져 있습니다.
+     * ✓ 모든 strings의 원소의 길이는 n보다 큽니다.
+     * ✓ 인덱스 1의 문자가 같은 문자열이 여럿 일 경우, 사전순으로 앞선 문자열이 앞쪽에 위치합니다.
      * @param strings : 문자열로 구성된 리스트
      * @param n : 정수
      * @return 각 문자열의 인덱스 n번째 글자를 기준으로 오름차순 정렬한 배열
@@ -136,8 +136,8 @@ public class Solution_Practice {
 
     /**
      * #12916
-     * - 문자열 s는 알파벳으로만 이루어져 있습니다.
-     * - 'p', 'y' 모두 하나도 없는 경우는 항상 True를 리턴
+     * ✓ 문자열 s는 알파벳으로만 이루어져 있습니다.
+     * ✓ 'p', 'y' 모두 하나도 없는 경우는 항상 True를 리턴
      * @param s : 대문자와 소문자가 섞여있는 문자열
      * @return s에 'p'의 개수와 'y'의 개수를 비교해 같으면 True, 다르면 False
      * */
@@ -184,7 +184,7 @@ public class Solution_Practice {
 
     /**
      * #12918
-     * - 예를 들어 s가 "a234"이면 False를 리턴하고 "1234"라면 True를 리턴하면 됩니다.
+     * ✓ 예를 들어 s가 "a234"이면 False를 리턴하고 "1234"라면 True를 리턴하면 됩니다.
      * ! {n} : 앞의 문자가 정확히 n번 나옴
      * @param s : 길이 1 이상, 길이 8 이하인 문자열
      * @return 문자열 s의 길이가 4 혹은 6이고, 숫자로만 구성돼있는지 확인해주는 함수
@@ -199,9 +199,8 @@ public class Solution_Practice {
 
     /**
      * #12919
-     * [제한 사항]
-     * - "Kim"은 반드시 seoul 안에 포함되어 있습니다.
-     * - seoul에 "Kim"은 오직 한 번만 나타나며 잘못된 값이 입력되는 경우는 없습니다.
+     * ✓ "Kim"은 반드시 seoul 안에 포함되어 있습니다.
+     * ✓ seoul에 "Kim"은 오직 한 번만 나타나며 잘못된 값이 입력되는 경우는 없습니다.
      * @param seoul : 길이 1 이상, 1000 이하인 배열
      * @return String형 배열 seoul의 element중 "Kim"의 위치 x를 찾아, "김서방은 x에 있다"는 String을 반환하는 함수
      * */
@@ -268,9 +267,9 @@ public class Solution_Practice {
 
     /**
      * #12925
-     * - s의 맨앞에는 부호(+, -)가 올 수 있습니다.
-     * - s는 부호와 숫자로만 이루어져있습니다.
-     * - s는 "0"으로 시작하지 않습니다.
+     * ✓ s의 맨앞에는 부호(+, -)가 올 수 있습니다.
+     * ✓ s는 부호와 숫자로만 이루어져있습니다.
+     * ✓ s는 "0"으로 시작하지 않습니다.
      * @param s : 길이 1 이상 5이하의 문자열
      * @return 문자열 s를 숫자로 변환한 결과를 반환
      * */
@@ -280,8 +279,8 @@ public class Solution_Practice {
 
     /**
      * #12926
-     * 시저암호: 어떤 문장의 각 알파벳을 일정한 거리만큼 밀어서 다른 알파벳으로 바꾸는 암호화 방식
-     * - 공백은 아무리 밀어도 공백입니다.
+     * ✓ 시저암호: 어떤 문장의 각 알파벳을 일정한 거리만큼 밀어서 다른 알파벳으로 바꾸는 암호화 방식
+     * ✓ 공백은 아무리 밀어도 공백입니다.
      * @param s : 문자열
      * @param n : 거리
      * @return 문자열 s를 숫자로 변환한 결과를 반환
@@ -300,6 +299,46 @@ public class Solution_Practice {
             answer += ch;
         }
 
+        return answer;
+    }
+
+    /**
+     * #12928
+     * ✓ n은 0 이상 3000이하인 정수입니다.
+     * @param n
+     * @return n의 약수를 모두 더한 값
+     * */
+    public int solution15(int n) {
+        int answer = 0;
+        for(int i=1; i<=n; i++) {
+            if(n % i == 0) {
+                answer += i;
+            }
+        }
+        return answer;
+    }
+
+    /**
+     * #12930
+     * ✓ 문자열 전체의 짝/홀수 인덱스가 아니라, 단어(공백을 기준)별로 짝/홀수 인덱스를 판단해야합니다.
+     * ✓ 첫 번째 글자는 0번째 인덱스로 보아 짝수번째 알파벳으로 처리해야 합니다.
+     * @param s
+     * @return 각 단어의 짝수번째 알파벳은 대문자로, 홀수번째 알파벳은 소문자로 바꾼 문자열을 리턴하는 함수
+     * */
+    public String solution16(String s) {
+        String answer = "";
+        String[] arr = s.split(" ", -1); //마지막 공백 무시되는 현상 방지
+        for(int i=0; i<arr.length; i++) {
+            for(int j=0; j<arr[i].length(); j++) {
+                char c = arr[i].charAt(j);
+                if(j % 2 == 0) { //짝수
+                    answer += Character.toUpperCase(c);
+                }else {
+                    answer += Character.toLowerCase(c);
+                }
+            }
+            if(i != arr.length -1) answer += " ";
+        }
         return answer;
     }
 }
