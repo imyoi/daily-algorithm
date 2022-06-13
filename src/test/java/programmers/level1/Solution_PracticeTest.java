@@ -192,4 +192,28 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, "e F d");
     }
+
+    @Test
+    void solution15_약수의_합() {
+        //given
+        int n = 12;
+
+        //when
+        int result = sp.solution15(n);
+
+        //then
+        assertEquals(result, 28);
+    }
+
+    @Test
+    void solution16_이상한_문자_만들기() {
+        //given
+        String s = "sp ace";
+
+        //when
+        String result = sp.solution16(s);
+
+        //then
+        assertEquals(result, "Sp AcE");
+    }
 }
