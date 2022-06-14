@@ -94,12 +94,12 @@
       <tr>
           <td>12931</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12931">자릿수 더하기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12932</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12932">자연수 뒤집어 배열로 만들기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12933</td>
