@@ -2,6 +2,10 @@ package programmers.level1;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -215,5 +219,30 @@ class Solution_PracticeTest {
 
         //then
         assertEquals(result, "Sp AcE");
+    }
+
+    @Test
+    void solution17_자릿수_더하기() {
+        //given
+        int n = 123;
+
+        //when
+        int result = sp.solution17(n);
+
+        //then
+        assertEquals(6, 6);
+    }
+
+    @Test
+    void solution18_자연수_뒤집어_배열로_만들기() {
+        //given
+        long n = 12345;
+
+        //when
+        int[] result = sp.solution18(n);
+        System.out.println(Arrays.toString(result));
+
+        //then
+        assertArrayEquals(result, new int[]{5,4,3,2,1});
     }
 }
