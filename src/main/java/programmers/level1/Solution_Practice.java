@@ -341,4 +341,38 @@ public class Solution_Practice {
         }
         return answer;
     }
+
+    /**
+     * #12931
+     * ✓ n은 100,000,000 이하의 자연수입니다.
+     * @param n
+     * @return N의 각 자릿수의 합
+     * */
+    public int solution17(int n) {
+        int answer = 0;
+        while(n > 0) {
+            answer += n%10; //일의 자리 얻기
+            n /= 10; //소거
+        }
+        return answer;
+    }
+
+    /**
+     * #12932
+     * ✓ n은 10,000,000,000이하인 자연수입니다.
+     * @param n
+     * @return 자연수 n을 뒤집어 각 자리 숫자를 원소로 가지는 배열 형태로 리턴
+     * */
+    public int[] solution18(long n) {
+        String s = String.valueOf(n);
+        int[] answer = new int[s.length()];
+
+        int i=0;
+        while(n > 0) {
+            answer[i] = (int)(n % 10);
+            n /= 10;
+            i++;
+        }
+        return answer;
+    }
 }
