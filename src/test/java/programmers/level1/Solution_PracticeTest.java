@@ -2,9 +2,7 @@ package programmers.level1;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -244,5 +242,17 @@ class Solution_PracticeTest {
 
         //then
         assertArrayEquals(result, new int[]{5,4,3,2,1});
+    }
+
+    @Test
+    void solution19_정수_내림차순으로_배치하기() {
+        //given
+        long n = 118372;
+
+        //when
+        long result = sp.solution19(n);
+
+        //then
+        assertEquals(result, 873211);
     }
 }
