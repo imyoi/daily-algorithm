@@ -375,4 +375,21 @@ public class Solution_Practice {
         }
         return answer;
     }
+
+    /**
+     * #12933
+     * ✓ n은 1이상 8000000000 이하인 자연수입니다.
+     * @param n
+     * @return 각 자릿수를 큰것부터 작은 순으로 정렬한 새로운 정수
+     * */
+    public long solution19(long n) {
+        String[] list = String.valueOf(n).split("");
+        Arrays.sort(list);
+
+        StringBuilder sb = new StringBuilder();
+        for(String s : list) {
+            sb.append(s);
+        }
+        return Long.parseLong(sb.reverse().toString()); //역정렬
+    }
 }
