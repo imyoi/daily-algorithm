@@ -109,17 +109,17 @@
       <tr>
           <td>12934</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12934">정수 제곱근 판별</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12935</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12935">제일 작은수 더하기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12937</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12937">짝수와 홀수</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12940</td>
