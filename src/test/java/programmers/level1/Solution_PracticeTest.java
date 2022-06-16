@@ -255,4 +255,47 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, 873211);
     }
+
+    @Test
+    void solution20_정수_제곱근_판별() {
+        //given
+        long n = 121;
+        long n2 = 3;
+
+        //when
+        long result = sp.solution20(n);
+        long result2 = sp.solution20(n2);
+
+        //then
+        assertEquals(result, 144);
+        assertEquals(result2, -1);
+    }
+
+    @Test
+    void solution21_제일_작은_수_제거하기() {
+        //given
+        int[] arr = {4,3,2,1};
+        int[] arr2 = {10};
+
+        //when
+        int[] result = sp.solution21(arr);
+        int[] result2 = sp.solution21(arr2);
+        System.out.println(Arrays.toString(result));
+
+        //then
+        assertArrayEquals(result, new int[]{4,3,2});
+        assertArrayEquals(result2, new int[]{-1});
+    }
+
+    @Test
+    void solution22_짝수와_홀수() {
+        //given
+        int num = 3;
+
+        //when
+        String result = sp.solution22(num);
+
+        //then
+        assertEquals(result, "Odd");
+    }
 }
