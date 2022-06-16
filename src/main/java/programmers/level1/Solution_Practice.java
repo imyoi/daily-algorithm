@@ -392,4 +392,45 @@ public class Solution_Practice {
         }
         return Long.parseLong(sb.reverse().toString()); //역정렬
     }
+
+    /**
+     * #12934
+     * ✓ n은 1이상, 50000000000000 이하인 양의 정수입니다.
+     * ? Math.pow(밑, 지수)
+     * ex 121은 양의 정수 11의 제곱이므로, (11+1)를 제곱한 144를 리턴합니다
+     * @param arr
+     * @return n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양의 정수 x의 제곱이 아니라면 -1을 리턴
+     * */
+    public long solution20(long n) {
+        int sqrt = (int) Math.sqrt(n);
+        if(n == Math.pow(sqrt, 2)) { //n == 양의 정수 x의 제곱
+            return (long) Math.pow(sqrt+1, 2);
+        }
+        return -1;
+    }
+
+    /**
+     * #12935
+     * ✓ arr은 길이 1 이상인 배열입니다.
+     * ✓ 인덱스 i, j에 대해 i ≠ j이면 arr[i] ≠ arr[j] 입니다.
+     * ✓ 리턴하려는 배열이 빈 배열인 경우엔 배열에 -1을 채워 리턴하세요
+     * @param arr
+     * @return arr 에서 가장 작은 수를 제거한 배열을 리턴
+     * */
+    public int[] solution21(int[] arr) {
+        if(arr.length <= 1) {
+            return new int[]{-1};
+        }
+        return Arrays.stream(arr).filter(a -> a != Arrays.stream(arr).min().getAsInt()).toArray();
+    }
+
+    /**
+     * #12937
+     * ✓ 0은 짝수
+     * @param num : num은 int 범위의 정수
+     * @return 정수 num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환
+     * */
+    public String solution22(int num) {
+        return (num % 2 == 0) ? "Even" : "Odd";
+    }
 }
