@@ -298,4 +298,18 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, "Odd");
     }
+
+    @Test
+    void solution23_짝수와_홀수() {
+        //given
+        int n = 2;
+        int m = 5;
+
+        //when
+        int[] result = sp.solution23(n,m);
+        System.out.println(Arrays.toString(result));
+
+        //then
+        assertArrayEquals(result, new int[]{1,10});
+    }
 }
