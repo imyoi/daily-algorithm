@@ -124,7 +124,7 @@
       <tr>
           <td>12940</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12940">최대공약수와 최소공배수</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/blob/master/src/main/java/programmers/level1/Solution_Practice.java">:white_check_mark:</a></td>
       </tr>
       <tr>
           <td>12943</td>
