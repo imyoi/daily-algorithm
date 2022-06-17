@@ -433,4 +433,27 @@ public class Solution_Practice {
     public String solution22(int num) {
         return (num % 2 == 0) ? "Even" : "Odd";
     }
+
+    /**
+     * #12940
+     * ✓ 두 수는 1이상 1000000이하의 자연수입니다.
+     * ! 최대공약수: a를 b로 나눈 나머지
+     * ! 최소공배수: 최소공배수 * 최대공약수 = a * b 이용
+     * ! r = 0 이라면 a, b의 최대공약수는 b가 된다.
+     * @param n
+     * @param m
+     * @return 두 수를 입력받아 두 수의 최대공약수와 최소공배수를 반환
+     * */
+    public int[] solution23(int n, int m) {
+        int gcd = gcd(Math.max(n, m), Math.min(n, m));
+        int lcm = n * m / gcd;
+
+        return new int[]{gcd, lcm};
+    }
+
+    //최대공약수
+    public int gcd(int max, int min) {
+        if(min == 0) return max;
+        return gcd(min, max%min);
+    }
 }
