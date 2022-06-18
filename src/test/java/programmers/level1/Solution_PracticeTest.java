@@ -312,4 +312,43 @@ class Solution_PracticeTest {
         //then
         assertArrayEquals(result, new int[]{1,10});
     }
+
+    /**
+     * 예를 들어,
+     * 주어진 수가 6이라면 6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1 이 되어 총 8번 만에 1이 됩니다.
+     * */
+    @Test
+    void solution24_콜라츠_추측() {
+        //given
+        long num = 626331;
+
+        //when
+        int result = sp.solution24(num);
+
+        //then
+        assertEquals(result, -1);
+    }
+
+    @Test
+    void solution25_평균_구하기() {
+        //given
+        int[] arr = {1,2,3,4};
+        //when
+        double result = sp.solution25(arr);
+
+        //then
+        assertEquals(result, 2.5);
+    }
+
+    @Test
+    void solution26_하샤드수() {
+        //given
+        int x = 13;
+
+        //when
+        boolean result = sp.solution26(x);
+
+        //then
+        assertEquals(result, false);
+    }
 }
