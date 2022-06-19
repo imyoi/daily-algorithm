@@ -510,4 +510,69 @@ public class Solution_Practice {
         if(x % sum != 0) return false;
         return true;
     }
+
+    /**
+     * #12948
+     * @param phone_number : phone_number는 길이 4 이상, 20이하인 문자열입니다.
+     * @return 전화번호가 문자열 phone_number로 주어졌을 때, 전화번호의 뒷 4자리를 제외한 나머지 숫자를 전부 *으로 가린 문자열을 리턴
+     * */
+    public String solution27(String phone_number) {
+        String answer = "";
+        int length = phone_number.length();
+        for(int i=0; i<length-4; i++) {
+            answer += "*";
+        }
+        answer += phone_number.substring(length-4, length);
+        return answer;
+    }
+
+    /**
+     * #12950
+     * 행렬의 덧셈 : 크기가 같은 두 행렬의 같은 행, 열의 값을 서로 더한 결과
+     * ✓ 행렬 arr1, arr2의 행과 열의 길이는 500을 넘지 않습니다.
+     * @param arr1
+     * @param arr2
+     * @return 2개의 행렬 arr1과 arr2를 입력받아, 행렬 덧셈의 결과를 반환
+     * */
+    public int[][] solution28(int[][] arr1, int[][] arr2) {
+        int[][] answer = new int[arr1.length][arr1[0].length];
+        for(int i=0; i<arr1.length; i++) { //크기같음
+            for(int j=0; j<arr1[0].length; j++) {
+                answer[i][j] = arr1[i][j] + arr2[i][j];
+            }
+        }
+        return answer;
+    }
+
+    /**
+     * #12954
+     * @param x : -10000000 이상, 10000000 이하인 정수
+     * @param n : 1000 이하인 자연수
+     * @return x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 리턴
+     * */
+    public long[] solution29(int x, int n) {
+        long[] answer = new long[n];
+        int i = 0;
+        while(i < n) {
+            answer[i] = (long) x*(i+1); //x배
+            i++;
+        }
+        return answer;
+    }
+
+    /**
+     * #12969
+     * */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        for(int i=0; i<b; i++) {
+            for(int j=0; j<a; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 }
