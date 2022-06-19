@@ -351,4 +351,55 @@ class Solution_PracticeTest {
         //then
         assertEquals(result, false);
     }
+
+    @Test
+    void solution27_핸드폰_번호_가리기() {
+        //given
+        String phone_number = "01033334444";
+
+        //when
+        String result = sp.solution27(phone_number);
+
+        //then
+        assertEquals(result, "*******4444");
+    }
+
+    @Test
+    void solution28_행렬의_덧셈() {
+        //given
+        int[][] arr1 = {{1,2},{2,3}};
+        int[][] arr2 = {{3,4},{5,6}};
+
+        //when
+        int[][] result = sp.solution28(arr1, arr2);
+
+        //then
+        assertArrayEquals(result, new int[][]{{4,6},{7,9}});
+    }
+
+    @Test
+    void solution29_x만큼_간격이_있는_n개의_숫자() {
+        //given
+        int x = -4;
+        int n = 2;
+
+        //when
+        long[] result = sp.solution29(x, n);
+
+        //then
+        assertArrayEquals(result, new long[]{-4,-8});
+    }
+
+    @Test
+    void solution30__x만큼_간격이_있는_n개의_숫자() {
+        //given
+        int x = -4;
+        int n = 2;
+
+        //when
+        long[] result = sp.solution29(x, n);
+
+        //then
+        assertArrayEquals(result, new long[]{-4,-8});
+    }
 }
