@@ -31,4 +31,17 @@ public class Solution_WeeklyChallenge {
         }
         answer = Math.max(answer, cnt);
     }
+
+    /**
+     * #87377
+     * ✓ line의 가로(열) 길이는 3입니다.
+     * ✓ ine의 각 원소는 [A, B, C] 형태입니다.
+     * ✓ A = 0이면서 B = 0인 경우는 주어지지 않습니다.
+     * @param line : 직선 A, B, C에 대한 정보가 담긴 배열
+     * @return 모든 별을 포함하는 최소 사각형을 return
+     * */
+    public String[] solution02(int[][] line) {
+        String[] answer = {};
+        return answer;
+    }
 }

@@ -82,6 +82,8 @@
 </table>
 
 #### 코딩테스트 연습 <img width="32" alt="level_badge2" src="https://user-images.githubusercontent.com/104837715/174593613-39add481-57d0-4170-a081-8ad1a03d0af2.png">
+✓ Lv.2 부터 [스터디](https://github.com/imyoi/programmers-challenges)를 통해 함께 진행합니다.
+
 <table>
     <tr>
         <th style="text-align: center">NO</th>
