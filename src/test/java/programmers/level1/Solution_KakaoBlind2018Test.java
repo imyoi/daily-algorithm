@@ -1,7 +1,6 @@
 package programmers.level1;
 
 import org.junit.jupiter.api.Test;
-import programmers.level1.Solution_KakaoBlind2018;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
