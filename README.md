@@ -16,7 +16,7 @@
         <td align="center">1</td>
         <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level1/Solution_Practice.java">연습문제</a></td>
         <td align="center">30 / 30</td>
-        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level1/Level1.md"><img src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
     </tr>
     <tr>
         <td align="center">2</td>
@@ -81,6 +81,21 @@
     </tr>
 </table>
 
+#### 코딩테스트 연습 <img width="32" alt="level_badge2" src="https://user-images.githubusercontent.com/104837715/174593613-39add481-57d0-4170-a081-8ad1a03d0af2.png">
+<table>
+    <tr>
+        <th style="text-align: center">NO</th>
+        <th>제목<sup> *(해당 소스 이동)</sup></th>
+        <th style="text-align: center">문제 수</th>
+        <th style="text-align: center">상태</th>
+    </tr>
+    <tr>
+        <td align="center">1</td>
+        <td><a href="https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">위클리 챌린지</a></td>
+        <td align="center">1 / 4</td>
+        <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
+    </tr>
+</table>
 
 ### 백준알고리즘 [:speech_balloon:](https://help.acmicpc.net/)
 
