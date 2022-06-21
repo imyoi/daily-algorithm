@@ -1,4 +1,4 @@
-## :cloud: [알고리즘](https://github.com/imyoi/DailyAlgorithm/blob/main/src/main/java/baekjoon/step1/Step1.md)
+## :cloud: [알고리즘](https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/baekjoon/step1/Step1.md)
 
 ### 시간복잡도
 입력의 크기 N에 대해서 시간이 얼마나 걸릴지 나타내는 방법 (표기법으로 대문자 O를 사용한다.) <br>
