@@ -25,13 +25,13 @@
       <tr>
           <td>87377</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/87377">교점에 별 만들기</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
-          <td align="center"><a href="#"></a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">:white_check_mark:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_WeeklyChallenge.java">6월 4주차</a></td>
       </tr>
       <tr>
           <td>87946</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/87946">피로도</a></td>
-          <td align="center"><a href="https://github.com/imyoi/DailyAlgorithm/tree/master/src/main/java/programmers/level1/Solution_WeeklyChallenge.java">:white_check_mark:</a></td>
-          <td align="center"><a href="#">6월 4주차</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">:white_check_mark:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_WeeklyChallenge.java">6월 4주차</a></td>
       </tr>
   </table>
