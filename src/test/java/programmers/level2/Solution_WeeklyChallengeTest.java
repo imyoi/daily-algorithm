@@ -2,7 +2,7 @@ package programmers.level2;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -39,5 +39,18 @@ class Solution_WeeklyChallengeTest {
         //then
         assertArrayEquals(result, new String[]{"....*....", ".........", ".........", "*.......*", ".........", ".........", ".........", ".........", "*.......*"});
         assertArrayEquals(result2, new String[]{"*.*"});
+    }
+
+    @Test
+    void 전력망을_둘로_나누기() {
+        //given
+        int n = 9;
+        int[][] wires = {{1,3},{2,3},{3,4},{4,5},{4,6},{4,7},{7,8},{7,9}};
+
+        //when
+        int result = sw.solution03(n, wires);
+
+        //then
+        assertEquals(result, 3);
     }
 }
