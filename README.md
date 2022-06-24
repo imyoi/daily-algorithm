@@ -93,7 +93,7 @@
     <tr>
         <td align="center">1</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">위클리 챌린지</a></td>
-        <td align="center">2 / 4</td>
+        <td align="center">3 / 4</td>
         <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
     </tr>
 </table>
