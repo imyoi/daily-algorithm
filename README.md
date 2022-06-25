@@ -116,7 +116,7 @@
     <tr>
         <td align="center">2</td>
         <td><a href="https://www.acmicpc.net/step/2">조건문</a></td>
-        <td align="center">2 / 7</td>
+        <td align="center">3 / 7</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/baekjoon/step2/Step2.md"><img width="55" alt="baekjoon_1" src="https://user-images.githubusercontent.com/104837715/172053974-addf51e3-121f-457c-9f3a-3cf2da0285bd.png"></a></td>
     </tr>
 </table>

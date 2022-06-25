@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Step2 {
 
     public static void main(String[] args) {
-        p_9498();
+        p_2753();
     }
 
     /**
@@ -32,6 +32,15 @@ public class Step2 {
         Scanner sc = new Scanner(System.in);
         int score = sc.nextInt();
         System.out.print(score>=90 ? "A" : score>=80 ? "B" : score>=70 ? "C": score>=60 ? "D" : "F");
+    }
 
+    /**
+     * 연도가 주어졌을 때, 윤년이면 1, 아니면 0을 출력하는 프로그램을 작성하시오.
+     * 윤년은 연도가 4의 배수이면서, 100의 배수가 아닐 때 또는 400의 배수일 때이다.
+     * */
+    public static void p_2753() {
+        Scanner sc = new Scanner(System.in);
+        int year = sc.nextInt();
+        System.out.println((year%4==0 && (year%100!=0 || year%400==0)) ? 1 : 0 );
     }
 }
