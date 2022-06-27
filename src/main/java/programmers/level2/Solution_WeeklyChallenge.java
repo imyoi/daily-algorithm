@@ -145,4 +145,45 @@ public class Solution_WeeklyChallenge {
             parent[x] = y;
         }
     }
+
+    /**
+     * #84512 모음사전
+     * word는 알파벳 대문자 'A', 'E', 'I', 'O', 'U'로만 이루어져 있습니다.
+     * @param word : 단어
+     * @return 이 단어가 사전에서 몇 번째 단어인지 return
+     * */
+    public int solution04(String word) {
+        //A -> I  +1562
+        //A -> E 781 간격 (1번째) +781증가
+
+        //A(1) -> E(782)       //+781증가 (1번째)
+        //AA(2) -> AE          //+156증가 (2번째) (31)*5+1 = 156
+        //AAA(3) -> AAE(34)    //+31증가 (3번째) (6)*5+1 = 31
+        //AAAA(4) -> AAAE(10)  //+6증가  (4번째) (1)*5+1) = 6
+        //AAAAA(5) -> AAAAE(6) //+1증가  (5번째) (0)*5+1 = 5
+        //AAAAI(7)
+        //AAAEA(11), AAAEE, AAAEI, AAAEO, AAAEU, AAAI(16)
+        //AAAIA(17) ~ AAAIU(21), AAAO(22), AAAU(28)
+        //AAE(34) ~ AAU(127), AAUAA(128) ~
+
+        //(전번째 자리 증가율) * 5(문자수) + 1
+        int answer = word.length(); //최소값
+
+        char[] c = {'A', 'E', 'I', 'O', 'U'};
+        int[] arr = new int[]{781, 156, 31, 6, 1};
+
+        for(int i=0; i<word.length(); i++) {
+            for(int j=0; j<5; j++) { //?번째 자리에서 바뀌었는지 돌아가면서 체크
+                if(word.charAt(i) == c[j]) { //일치하면
+                    System.out.println(c[j]);
+                    System.out.println(arr[i]); //증가율
+                    System.out.println(j); //알파벳 바뀌는 순(A->A(안바뀜 = 0), A->E(바뀜 = 1) ...
+                    answer += arr[i] * j; //증가율 * 반복횟수
+                    System.out.println("check" + answer);
+                }
+            }
+        }
+        System.out.println(answer);
+        return answer;
+    }
 }
