@@ -53,4 +53,16 @@ class Solution_WeeklyChallengeTest {
         //then
         assertEquals(result, 3);
     }
+
+    @Test
+    void 모음사전() {
+        //given
+        String word = "EIO";
+
+        //when
+        int result = sw.solution04(word);
+
+        //then
+        assertEquals(result, 1189);
+    }
 }
