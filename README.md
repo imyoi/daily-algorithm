@@ -1,4 +1,4 @@
-## :cloud: Daily Algorithm &nbsp;<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
+## ☁️ Daily Algorithm &nbsp;<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
 문제에 대한 진행 상태 및 풀이는 해당 디렉토리 내 md 파일에 정리하고 있습니다.
 
 
@@ -93,12 +93,18 @@
     <tr>
         <td align="center">1</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">위클리 챌린지</a></td>
-        <td align="center">3 / 4</td>
-        <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
+        <td align="center">4 / 4</td>
+        <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td><a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level2/Solution_TipsTown2017.java">2017 팁스타운</a></td>
+        <td align="center">1 / 2</td>
+        <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
     </tr>
 </table>
 
-### 백준알고리즘 [:speech_balloon:](https://help.acmicpc.net/)
+### 백준알고리즘 [💬](https://help.acmicpc.net/)
 
 <table>
     <tr>
@@ -131,13 +137,13 @@
 ```
 | Gitmoji | Commit Type |
 | ------- | ----------- |
-| :tada:`:tada:` | Initial commit |
-| :sparkles:`:sparkles:` | New feature |
-| :white_check_mark:`:white_check_mark:` | Adding a test |
-| :fire:`:fire:` | Removing code/files |
-| :truck:`:truck:` | Move or rename resources |
-| :bulb:`:bulb:` | Add/Update comments in source code |
-| :page_facing_up:`:page_facing_up:` | Add/Update Documentation |
+| 🎉`:tada:` | Initial commit |
+| ✨`:sparkles:` | New feature |
+| ✅`:white_check_mark:` | Adding a test |
+| 🔥`:fire:` | Removing code/files |
+| 🚚`:truck:` | Move or rename resources |
+| 💡`:bulb:` | Add/Update comments in source code |
+| 📄`:page_facing_up:` | Add/Update Documentation |
 
 ---
 

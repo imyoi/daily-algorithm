@@ -13,25 +13,39 @@
           <td rowspan="4">위클리 챌린지</td>
           <td>84512</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/84512">모음사전</a></td>
-          <td align="center"><a href="#">:construction:</a></td>
-          <td align="center"><a href="#"></a></td>
+          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_WeeklyChallenge.java">6월 4주차</a></td>
       </tr>
       <tr>
           <td>86971</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/86971">전력망을 둘로 나누기</a></td>
-          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">:white_check_mark:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_WeeklyChallenge.java">6월 4주차</a></td>
       </tr>
       <tr>
           <td>87377</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/87377">교점에 별 만들기</a></td>
-          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">:white_check_mark:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_WeeklyChallenge.java">6월 4주차</a></td>
       </tr>
       <tr>
           <td>87946</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/87946">피로도</a></td>
-          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">:white_check_mark:</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_WeeklyChallenge.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_WeeklyChallenge.java">6월 4주차</a></td>
+      </tr>
+      <!--Solution_TipsTown2017-->
+      <tr>
+          <td rowspan="2">2017 팁스타운</td>
+          <td>12973</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12973">짝지어 제거하기</a></td>
+          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_TipsTown2017.java">6월 5주차</a></td>
+      </tr>
+      <tr>
+          <td>12985</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12985">예상 대진표</a></td>
+          <td align="center"><a href="#">🚧</a></td>
+          <td align="center"><a href="#"></a></td>
       </tr>
   </table>
