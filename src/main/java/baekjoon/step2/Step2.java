@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Step2 {
 
     public static void main(String[] args) {
-        p_2753();
+        p_14681();
     }
 
     /**
@@ -42,5 +42,24 @@ public class Step2 {
         Scanner sc = new Scanner(System.in);
         int year = sc.nextInt();
         System.out.println((year%4==0 && (year%100!=0 || year%400==0)) ? 1 : 0 );
+    }
+
+    /**
+     * 점의 좌표를 입력받아 그 점이 어느 사분면에 속하는지 알아내는 프로그램을 작성하시오.
+     * */
+    public static void p_14681() {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+
+        if(x > 0 && y > 0) {
+            System.out.println(1);
+        }else if(x < 0 && y > 0) {
+            System.out.println(2);
+        }else if(x < 0 && y < 0) {
+            System.out.println(3);
+        }else {
+            System.out.println(4);
+        }
     }
 }
