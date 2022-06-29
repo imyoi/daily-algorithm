@@ -99,7 +99,13 @@
     <tr>
         <td align="center">2</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level2/Solution_TipsTown2017.java">2017 팁스타운</a></td>
-        <td align="center">1 / 2</td>
+        <td align="center">2 / 2</td>
+        <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
+    </tr>
+    <tr>
+        <td align="center">3</td>
+        <td><a href="#">찾아라 프로그래밍 마에스터</a></td>
+        <td align="center">0 / 1</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
     </tr>
 </table>

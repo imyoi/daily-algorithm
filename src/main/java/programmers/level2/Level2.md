@@ -45,7 +45,15 @@
       <tr>
           <td>12985</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12985">예상 대진표</a></td>
+          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_TipsTown2017.java">6월 5주차</a></td>
+      </tr>
+      <!--Solution_Maester-->
+      <tr>
+          <td>찾아라 프로그래밍 마에스터</td>
+          <td>1844</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/1844">게임 맵 최단거리</a></td>
           <td align="center"><a href="#">🚧</a></td>
-          <td align="center"><a href="#"></a></td>
+          <td align="center"><a href="#">6월 5주차</a></td>
       </tr>
   </table>
