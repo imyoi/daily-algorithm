@@ -28,7 +28,19 @@ public class Solution_TipsTown2017 {
      * @return 처음 라운드에서 A번을 가진 참가자는 경쟁자로 생각하는 B번 참가자와 몇 번째 라운드에서 만나는지 return
      * */
     public int solution02(int n, int a, int b){
-        int answer = -1;
+        int answer = 0;
+        while(a != b) {
+            a = (a + 1)/2;
+            b = (b + 1)/2;
+            answer++; //라운드 증가
+        }
         return answer;
+    }
+
+    /**
+     * #12985 다른 풀이
+     * */
+    public int studies02(int n, int a, int b){
+        return Integer.toBinaryString((a-1)^(b-1)).length();
     }
 }
