@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Step2 {
 
     public static void main(String[] args) {
-        p_14681();
+        p_2884();
     }
 
     /**
@@ -61,5 +61,23 @@ public class Step2 {
         }else {
             System.out.println(4);
         }
+    }
+
+    /**
+     * 45분 일찍 알람 설정하기
+     * */
+    public static void p_2884() {
+        Scanner sc = new Scanner(System.in);
+        int h = sc.nextInt();
+        int m = sc.nextInt();
+
+        if(m >= 45) {
+            m = m - 45;
+        }else {
+            m = m + 15;
+            if(h == 0) h =23;
+            else h--;
+        }
+        System.out.println(h + " " + m);
     }
 }
