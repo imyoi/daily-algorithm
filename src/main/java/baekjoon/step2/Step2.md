@@ -37,4 +37,16 @@
         <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/baekjoon/step2/Step2.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
         <td>수학, 사칙연산</td>
     </tr>
+    <tr>
+        <td align="center">2525</td>
+        <td><a href="https://www.acmicpc.net/problem/2525">오븐 시계</a></td>
+        <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/baekjoon/step2/Step2.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
+        <td>수학, 사칙연산</td>
+    </tr>
+    <tr>
+        <td align="center">2480</td>
+        <td><a href="https://www.acmicpc.net/problem/2480">주사위 세개</a></td>
+        <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/baekjoon/step2/Step2.java"><img width="36" alt="baekjoon_2" src="https://user-images.githubusercontent.com/104837715/172054906-2b63433e-01bd-4a86-8824-0805e31c6fed.png"></a></td>
+        <td>수학, 사칙연산</td>
+    </tr>
 </table>

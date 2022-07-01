@@ -128,7 +128,13 @@
     <tr>
         <td align="center">2</td>
         <td><a href="https://www.acmicpc.net/step/2">조건문</a></td>
-        <td align="center">5 / 7</td>
+        <td align="center">7 / 7</td>
+        <td><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/baekjoon/step1/Step1.md"><img width="38" alt="완료" src="https://user-images.githubusercontent.com/104837715/175050506-7cfdc59f-e747-4b85-b661-f4f91ca3e6fc.png"></a></td>
+    </tr>
+    <tr>
+        <td align="center">3</td>
+        <td><a href="https://www.acmicpc.net/step/3">반복문</a></td>
+        <td align="center">0 / 14</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/baekjoon/step2/Step2.md"><img width="55" alt="baekjoon_1" src="https://user-images.githubusercontent.com/104837715/172053974-addf51e3-121f-457c-9f3a-3cf2da0285bd.png"></a></td>
     </tr>
 </table>
