@@ -106,6 +106,12 @@
         <td align="center">3</td>
         <td><a href="#">찾아라 프로그래밍 마에스터</a></td>
         <td align="center">1 / 1</td>
+        <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
+    </tr>
+    <tr>
+        <td align="center">4</td>
+        <td><a href="#">Summer/Winter Coding(~2018)</a></td>
+        <td align="center">1 / 5</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
     </tr>
 </table>
