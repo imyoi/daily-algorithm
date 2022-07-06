@@ -2,6 +2,8 @@ package programmers.level2;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class Solution_SummerWinter2018Test {
@@ -20,5 +22,19 @@ class Solution_SummerWinter2018Test {
 
         //then
         assertEquals(4,4);
+    }
+
+    @Test
+    void 영어_끝말잇기() {
+        //given
+        int n = 2;
+        String[] words = {"hello", "one", "even", "never", "now", "world", "draw"};
+
+        //when
+        int[] result = ss.solution02(n, words);
+        System.out.println(Arrays.toString(result));
+
+        //then
+        assertArrayEquals(result, new int[]{1,3});
     }
 }
