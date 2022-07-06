@@ -1,7 +1,11 @@
 package programmers.level2;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Solution_SummerWinter2018 {
     /**
+     * #12978 배달
      * a, b(1 ≤ a, b ≤ N, a != b)는 도로가 연결하는 두 마을의 번호
      * c(1 ≤ c ≤ 10,000, c는 자연수)는 도로를 지나는데 걸리는 시간입니다.
      * 1번 마을에 있는 음식점이 K 이하의 시간에 배달이 가능한 마을의 개수를 return 하면 됩니다.
@@ -50,5 +54,33 @@ public class Solution_SummerWinter2018 {
             if(distance[0][i] <= K) answer++;
         }
         return answer;
+    }
+
+    /**
+     * #12981 영어 끝말잇기
+     * 1. 1번부터 번호 순서대로 한 사람씩 차례대로 단어를 말합니다.
+     * 2. 마지막 사람이 단어를 말한 다음에는 다시 1번부터 시작합니다.
+     * 3. 앞사람이 말한 단어의 마지막 문자로 시작하는 단어를 말해야 합니다.
+     * 4. 이전에 등장했던 단어는 사용할 수 없습니다. (=중복금지)
+     * 5. 한 글자인 단어는 인정되지 않습니다.
+     * @param n : 사람의 수
+     * @param words : 사람들이 순서대로 말한 단어
+     * @return 가장 먼저 탈락하는 사람의 번호와 그 사람이 자신의 몇 번째 차례에 탈락하는지를 구해서 return
+     * */
+    public int[] solution02(int n, String[] words) {
+        Set<String> set = new HashSet<>(); //중복 방지
+        set.add(words[0]);
+
+        int i = 1;
+        while(i < words.length){
+            String pre = words[i-1]; //이전단어
+            //이미 나왔거나, 단어가 맞지 않는 경우
+            if(set.contains(words[i]) || pre.charAt(pre.length()-1) != words[i].charAt(0)) {
+                return new int[]{i%n+1, i/n+1};
+            }
+            set.add(words[i]);
+            i++;
+        }
+        return new int[]{0,0}; //탈락자가 생기지 않는다면?
     }
 }
