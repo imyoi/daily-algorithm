@@ -83,4 +83,27 @@ public class Solution_SummerWinter2018 {
         }
         return new int[]{0,0}; //탈락자가 생기지 않는다면?
     }
+
+    /**
+     * #12899 124 나라의 숫자
+     * ✓ 124 나라에는 자연수만 존재합니다.
+     * ✓ 124 나라에는 모든 수를 표현할 때 1, 2, 4만 사용합니다.
+     * @param n : 숫자
+     * @return n을 124 나라에서 사용하는 숫자로 바꾼 값
+     * */
+    public String solution03(int n) {
+        //n%3 == 1 -> index = 1 (1)
+        //n%3 == 2 -> index = 2 (2)
+        //n%3 == 0 -> index = 0 을 124 나라의 맞게 순서대로 초기화 (4)
+        //num[0], num[1], num[2]
+        //{"4","1","2"}
+        String answer = "";
+        String[] num = {"4", "1", "2"};
+        while(n > 0) {
+            answer = num[n%3] + answer;
+            if(n%3 == 0) n--;
+            n /= 3;
+        }
+        return answer;
+    }
 }
