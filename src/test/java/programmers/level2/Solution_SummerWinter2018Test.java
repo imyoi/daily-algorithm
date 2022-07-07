@@ -37,4 +37,16 @@ class Solution_SummerWinter2018Test {
         //then
         assertArrayEquals(result, new int[]{1,3});
     }
+
+    @Test
+    void _124나라의_숫자() {
+        //given
+        int n = 4;
+
+        //when
+        String result = ss.solution03(n);
+
+        //then
+        assertEquals(result, "11");
+    }
 }
