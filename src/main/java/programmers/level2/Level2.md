@@ -71,7 +71,7 @@
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 2주차</a></td>
       </tr>
       <tr>
-          <td>12988</td>
+          <td>12899</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12988">124 나라의 숫자</a></td>
           <td align="center"><a href="#">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 2주차</a></td>
