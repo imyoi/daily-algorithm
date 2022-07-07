@@ -39,12 +39,25 @@ class Solution_SummerWinter2018Test {
     }
 
     @Test
+    void 점프와_순간_이동() {
+        //given
+        int N = 5;
+
+        //when
+        int result = ss.solution03(N);
+
+        //then
+        assertEquals(result, 2);
+    }
+
+    /*연습문제*/
+    @Test
     void _124나라의_숫자() {
         //given
         int n = 4;
 
         //when
-        String result = ss.solution03(n);
+        String result = ss.solution04(n);
 
         //then
         assertEquals(result, "11");

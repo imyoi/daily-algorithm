@@ -39,13 +39,13 @@
           <td rowspan="2">2017 팁스타운</td>
           <td>12973</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12973">짝지어 제거하기</a></td>
-          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_TipsTown2017.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_TipsTown2017.java">6월 5주차</a></td>
       </tr>
       <tr>
           <td>12985</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12985">예상 대진표</a></td>
-          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_TipsTown2017.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_TipsTown2017.java">6월 5주차</a></td>
       </tr>
       <!--Solution_Maester-->
@@ -53,7 +53,7 @@
           <td>찾아라 프로그래밍 마에스터</td>
           <td>1844</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/1844">게임 맵 최단거리</a></td>
-          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_Maester.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_Maester.java">7월 1주차</a></td>
       </tr>
       <!--Solution_SummerWinter2018-->
@@ -61,19 +61,19 @@
           <td rowspan="3">Summer/Winter Coding(~2018)</td>
           <td>12978</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12978">배달</a></td>
-          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2018.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 2주차</a></td>
       </tr>
       <tr>
           <td>12981</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12981">영어 끝말잇기</a></td>
-          <td align="center"><a href="#">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2018.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 2주차</a></td>
       </tr>
       <tr>
-          <td>12899</td>
-          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12988">124 나라의 숫자</a></td>
-          <td align="center"><a href="#">✅</a></td>
+          <td>12980</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12980">점프와 순간 이동</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2018.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 2주차</a></td>
       </tr>
   </table>
