@@ -45,7 +45,7 @@
       <tr>
           <td>12985</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12985">예상 대진표</a></td>
-          <td align="centerㄱㄷ"><a href="#">✅</a></td>
+          <td align="center"><a href="#">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_TipsTown2017.java">6월 5주차</a></td>
       </tr>
       <!--Solution_Maester-->
@@ -58,7 +58,7 @@
       </tr>
       <!--Solution_SummerWinter2018-->
       <tr>
-          <td rowspan="2">Summer/Winter Coding(~2018)</td>
+          <td rowspan="3">Summer/Winter Coding(~2018)</td>
           <td>12978</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12978">배달</a></td>
           <td align="center"><a href="#">✅</a></td>
