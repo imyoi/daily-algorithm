@@ -85,6 +85,7 @@ public class Solution_SummerWinter2018 {
     }
 
     /**
+     * #12980 점프와 순간 이동
      * 1칸이동 : 건전지 1개
      * 순간이동 : 현재까지 온 거리 x 2 (건전지 사용량이 줄지 않음)
      * @param n : 이동하려는 거리
@@ -102,13 +103,34 @@ public class Solution_SummerWinter2018 {
     }
 
     /**
+     * #49993 스킬트리
+     * ✓ 순서에 없는 다른 스킬(힐링 등)은 순서에 상관없이 배울 수 있습니다.
+     * @param skill : 선행 스킬 순서
+     * @param skill_trees : 유저들이 만든 스킬트리1를 담은 배열
+     * @return 가능한 스킬트리 개수
+     * */
+    public int solution04(String skill, String[] skill_trees) {
+        int answer = 0;
+        for(String s : skill_trees) {
+            String temp = s;
+            for (int i = 0; i < s.length(); i++) {
+                if (!skill.contains(String.valueOf(s.charAt(i)))) {
+                    temp = temp.replace(String.valueOf(s.charAt(i)), ""); //순서상관없는 스킬
+                }
+            }
+            if (skill.indexOf(temp) == 0) answer++;
+        }
+        return answer;
+    }
+
+    /**
      * #12899 124 나라의 숫자
      * ✓ 124 나라에는 자연수만 존재합니다.
      * ✓ 124 나라에는 모든 수를 표현할 때 1, 2, 4만 사용합니다.
      * @param n : 숫자
      * @return n을 124 나라에서 사용하는 숫자로 바꾼 값
      * */
-    public String solution04(int n) {
+    public String solution05(int n) {
         //n%3 == 1 -> index = 1 (1)
         //n%3 == 2 -> index = 2 (2)
         //n%3 == 0 -> index = 0 을 124 나라의 맞게 순서대로 초기화 (4)
