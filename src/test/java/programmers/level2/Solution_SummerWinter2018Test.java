@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Solution_SummerWinter2018Test {
     private final static Solution_SummerWinter2018 ss = new Solution_SummerWinter2018();
@@ -50,6 +51,19 @@ class Solution_SummerWinter2018Test {
         assertEquals(result, 2);
     }
 
+    @Test
+    void 스킬트리() {
+        //given
+        String skill = "CBD";
+        String[] skill_trees = {"BACDE", "CBADF", "AECB", "BDA"};
+
+        //when
+        int result = ss.solution04(skill, skill_trees);
+
+        //then
+        assertEquals(result, 2);
+    }
+
     /*연습문제*/
     @Test
     void _124나라의_숫자() {
@@ -57,7 +71,7 @@ class Solution_SummerWinter2018Test {
         int n = 4;
 
         //when
-        String result = ss.solution04(n);
+        String result = ss.solution05(n);
 
         //then
         assertEquals(result, "11");
