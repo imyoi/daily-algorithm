@@ -64,6 +64,18 @@ class Solution_SummerWinter2018Test {
         assertEquals(result, 2);
     }
 
+    @Test
+    void 방문길이() {
+        //given
+        String dirs = "LULLLLLLU";
+
+        //when
+        int result = ss.solution05(dirs);
+
+        //then
+        assertEquals(result, 7);
+    }
+
     /*연습문제*/
     @Test
     void _124나라의_숫자() {
