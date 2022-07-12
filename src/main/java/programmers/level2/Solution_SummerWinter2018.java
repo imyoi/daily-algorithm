@@ -1,6 +1,8 @@
 package programmers.level2;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class Solution_SummerWinter2018 {
@@ -121,6 +123,47 @@ public class Solution_SummerWinter2018 {
             if (skill.indexOf(temp) == 0) answer++;
         }
         return answer;
+    }
+
+    /**
+     * #49994 방문 길이
+     * @param dirs : 명령어
+     * @return 게임 캐릭터가 처음 걸어본 길의 길이
+     * */
+    public int solution05(String dirs) {
+        int x = 0, y = 0; //시작점(0,0) 초기화
+        HashSet<String> isVisited = new HashSet<>(); //방문체크(중복방지!)
+
+        Map<Character, int[]> command = new HashMap<>();
+        command.put('U', new int[]{0, 1});  //위쪽으로 한 칸 이동
+        command.put('D', new int[]{0, -1}); //아래쪽으로 한 칸 이동
+        command.put('R', new int[]{1, 0});  //오른쪽으로 한 칸 이동
+        command.put('L', new int[]{-1, 0}); //왼쪽으로 한 칸 이동
+
+        for(Character c : dirs.toCharArray()) {
+            int nX = x, nY = y;
+
+            //범위를 벗어날 경우
+            if(x < -5 || x > 5) {
+                x -= command.get(c)[0];
+                continue;
+            }
+            if(y < -5 || y > 5) {
+                y -= command.get(c)[1];
+                continue;
+            }
+
+            x += command.get(c)[0];
+            y += command.get(c)[1];
+
+            //이동하지 않는 경우
+            if(x == nX && y == nY) continue;
+
+            //양방향으로 다 넣어주기(같은 경로이므로 2로 나눠준다)
+            isVisited.add(nX + "" + nY + "" + x  + "" + y); //현재좌표 + 이동좌표
+            isVisited.add(x + "" + y + "" + nX  + "" + nY); //이동좌표 + 현재좌표
+        }
+        return isVisited.size()/2;
     }
 
     /**
