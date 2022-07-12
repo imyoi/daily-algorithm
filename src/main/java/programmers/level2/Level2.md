@@ -82,4 +82,10 @@
           <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2018.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 2주차</a></td>
       </tr>
+      <tr>
+          <td>49994</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/49994">방문길이</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2018.java">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 3주차</a></td>
+      </tr>
   </table>

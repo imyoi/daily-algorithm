@@ -111,7 +111,13 @@
     <tr>
         <td align="center">4</td>
         <td><a href="#">Summer/Winter Coding(~2018)</a></td>
-        <td align="center">4 / 5</td>
+        <td align="center">5 / 5</td>
+        <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/done-52B54B?style=for-the-badge&logoColor=white"></a></td>
+    </tr>
+    <tr>
+        <td align="center">5</td>
+        <td><a href="#">Summer/Winter Coding(~2019)</a></td>
+        <td align="center">0 / 1</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>
     </tr>
 </table>
