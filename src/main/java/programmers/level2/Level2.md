@@ -58,7 +58,7 @@
       </tr>
       <!--Solution_SummerWinter2018-->
       <tr>
-          <td rowspan="4">Summer/Winter Coding(~2018)</td>
+          <td rowspan="5">Summer/Winter Coding(~2018)</td>
           <td>12978</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/12978">배달</a></td>
           <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2018.java">✅</a></td>
@@ -87,5 +87,13 @@
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/49994">방문길이</a></td>
           <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2018.java">✅</a></td>
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2018.java">7월 3주차</a></td>
+      </tr>
+      <!--Solution_SummerWinter2019-->
+      <tr>
+          <td>Summer/Winter Coding(~2019)</td>
+          <td>62048</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/62048">멀쩡한 사각형</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2019.java">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2019.java">7월 1주차</a></td>
       </tr>
   </table>
