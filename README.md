@@ -123,9 +123,9 @@
     <tr>
         <td align="center">6</td>
         <td>
-            <a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level1/Solution_MonthlyChallenge1.java">월간 코드 챌린지 시즌 1</a>,
-            <a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level1/Solution_MonthlyChallenge2.java">시즌 2</a>,
-            <a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level1/Solution_MonthlyChallenge3.java">시즌 3</a>
+            <a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level2/Solution_MonthlyChallenge1.java">월간 코드 챌린지 시즌 1</a>,
+            <a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level2/Solution_MonthlyChallenge2.java">시즌 2</a>,
+            <a href="https://github.com/imyoi/daily-algorithm/blob/main/src/main/java/programmers/level2/Solution_MonthlyChallenge3.java">시즌 3</a>
         </td>
         <td align="center">2 / 7</td>
         <td><a href="https://github.com/imyoi/daily-algorithm/tree/main/src/main/java/programmers/level2/Level2.md"><img height="90%" src="https://img.shields.io/badge/doing-FFD000?style=for-the-badge&logoColor=white"></a></td>

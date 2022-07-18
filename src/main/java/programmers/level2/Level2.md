@@ -107,7 +107,7 @@
       <tr>
           <td>70129</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/70129">이진 변환 반복하기</a></td>
-          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_MonthlyChallenge1.java">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_MonthlyChallenge1.java">✅</a></td> 
           <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge1.java">7월 3주차</a></td>
       </tr>
   </table>
