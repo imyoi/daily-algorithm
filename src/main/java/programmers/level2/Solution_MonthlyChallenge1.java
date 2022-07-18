@@ -44,4 +44,25 @@ public class Solution_MonthlyChallenge1 {
         }
         return answer;
     }
+
+    /**
+     * #70129 이진 변환 반복하기
+     * @param s
+     * @return 이진 변환의 횟수와 변환 과정에서 제거된 모든 0의 개수를 각각 배열에 담아 return
+     * */
+    public int[] solution02(String s) {
+        int[] answer =  new int[2];
+        StringBuffer sb = new StringBuffer();
+        while(s.length() > 1) {
+            char[] arr = s.toCharArray();
+            for(char c : arr) {
+                if(c != '0') sb.append(c);
+                else answer[1]++; //제거된 0의 개수
+            }
+            answer[0]++;
+            s = Integer.toBinaryString(sb.toString().length()); //0을 제외한 문자열 길이 -> 2진수 변환
+            sb.delete(0, sb.length());
+        }
+        return answer;
+    }
 }
