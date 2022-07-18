@@ -94,6 +94,20 @@
           <td>62048</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/62048">멀쩡한 사각형</a></td>
           <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_SummerWinter2019.java">✅</a></td>
-          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2019.java">7월 1주차</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_SummerWinter2019.java">7월 3주차</a></td>
+      </tr>
+      <!--Solution_MonthlyChallenge1-->
+      <tr>
+          <td rowspan="2">월간 코드 챌린지 시즌 1</td>
+          <td>68645</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/68645">삼각 달팽이</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_MonthlyChallenge1.java">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge1.java">7월 3주차</a></td>
+      </tr>
+      <tr>
+          <td>70129</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/70129">이진 변환 반복하기</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_MonthlyChallenge1.java">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge1.java">7월 3주차</a></td>
       </tr>
   </table>
