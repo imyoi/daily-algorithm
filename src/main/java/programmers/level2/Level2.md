@@ -108,12 +108,20 @@
           <td>70129</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/70129">이진 변환 반복하기</a></td>
           <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_MonthlyChallenge1.java">✅</a></td> 
-          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge1.java">7월 3주차</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge1.java">7월 4주차</a></td>
       </tr>
       <tr>
           <td>68936</td>
           <td><a href="https://programmers.co.kr/learn/courses/30/lessons/68936">쿼드압축 후 개수 세기</a></td>
           <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_MonthlyChallenge1.java">✅</a></td> 
-          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge1.java">7월 3주차</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge1.java">7월 4주차</a></td>
+      </tr>
+      <!--Solution_MonthlyChallenge2-->
+      <tr>
+          <td rowspan="">월간 코드 챌린지 시즌 2</td>
+          <td>76502</td>
+          <td><a href="https://programmers.co.kr/learn/courses/30/lessons/76502">괄호 회전하기</a></td>
+          <td align="center"><a href="https://github.com/imyoi/daily-algorithm/tree/master/src/main/java/programmers/level2/Solution_MonthlyChallenge2.java">✅</a></td>
+          <td align="center"><a href="https://github.com/imyoi/programmers-challenges/blob/main/src/main/java/imyoi/weekly/Solution_MonthlyChallenge2.java">7월 4주차</a></td>
       </tr>
   </table>
